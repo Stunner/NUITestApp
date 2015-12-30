@@ -1,0 +1,1435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0165149CC837EA90ABC0F46DFCA3146D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D9DAEF2E2A515F2905154379002274 /* Foundation.framework */; };
+		03D5F27FB8002826EA58CE29317CD698 /* NUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = FC699B661721A7C35117A3074D1CB880 /* NUIAppearance.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		040E67DDC8F80B2C75D5482E953C3DFE /* NUIPShiftAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A4750835F526063FBEC608B114767C79 /* NUIPShiftAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04AFD26A89BEE72B759D89BEFB477E91 /* NUIProgressViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CA97526E805D6002B7DBD191C5B10A /* NUIProgressViewRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		05B58982F0CC3C8413FA9E3F8AD81174 /* NUIPShiftReduceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DE06639D29766FBA1DEFB19EFB54D /* NUIPShiftReduceParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0634680EFFF4FA8F412A73F9537192A3 /* NUIStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B27BBCB1EB4ABCE05EA89DDA913DEC29 /* NUIStyleSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		08945DF6099A329D58366112B56F3D1F /* NUIPShiftReduceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDCD2A55E9921B880C65CB0E9190AE8 /* NUIPShiftReduceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B5AB3F6B58262C1EBAA770ACEA7978 /* NUISelectorSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6698D0D1B3382A83E7529B0C084A9406 /* NUISelectorSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A08D75DE20024E970BEF8F5C30AC7E1 /* NUISwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DA2A29E9EDF317F935F59266DA1E24 /* NUISwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B904F054A84DE1E5987140EB95E831D /* NUIPJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 107CC2477162EAA12F52B1C99EC42F35 /* NUIPJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BEC028C19F3634FA3DE801975313235 /* NUITabBarItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = D79DD35522E7C2638A02E97B78890DC7 /* NUITabBarItemRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BF7CA133DA069E82CBE1880A9C5986F /* NUIPGrammarPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6BA6C0556768B9FE3291267A2615035 /* NUIPGrammarPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEC8E2A3476CE43D77FBFE9E962E64E /* NUIButtonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 125ED712072262FEADF5513C86271C2C /* NUIButtonRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0DB70CC2C24BD97D4387ED07354EBFD7 /* UISearchBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2BEFA63ABCB4F637B697CEF1DE1416 /* UISearchBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDB6DDD4C12252FDC3F4896AB04100A /* NUIPIdentifierToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA7389AC8DA4051BF152C4A685AD28 /* NUIPIdentifierToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		10008288C5BADCD8D8467224388A5405 /* NUISwitchRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 353DD4008E21E8854CEE4105136C47F9 /* NUISwitchRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11981DD8D6C84E0CD284480BADC9776E /* NUINavigationItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4DE5FF1FF111D3D1CC0CE8DF0C678A /* NUINavigationItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1203358AAA7E79D5301BCD9EE6EABCB6 /* NUIPErrorToken.h in Headers */ = {isa = PBXBuildFile; fileRef = FE971A39B4D630B34149B0EFE7B50BF2 /* NUIPErrorToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131C93747EAB6B8E05C8B5DA29C7FBB2 /* NUIFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A30682883F567F38E18FC1EFFEB7DBF /* NUIFileMonitor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17529476425F6726B30E27F6120205E3 /* NUIViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 688664F33111F4E0FDF43978E7BD3D24 /* NUIViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1839000FD968278B9E2154367052DE39 /* NSArray+NUIFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 9309229664475569BBD7CC34FF510C04 /* NSArray+NUIFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E50A30E79972739A38D4863D0E2C05 /* UISegmentedControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C007FE81F47ABAE67206DB67BABC4C92 /* UISegmentedControl+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1BC2700F5C92A6981FEDFE8C4EBD1708 /* UISwitch+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 076DB83BF58D2F47D1E58E186F915F11 /* UISwitch+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA449A1E9CC5CFB9A9FC81C32840ECE /* NUIPShiftReduceState.m in Sources */ = {isa = PBXBuildFile; fileRef = 914763E20565F8D164FCA798EE05AD93 /* NUIPShiftReduceState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		207FC7DCAC88A72AE7BB5FEFB67D788E /* NSSet+NUIFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755D7FBCB07EA18BCD004A80D4F7E92 /* NSSet+NUIFunctional.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2500957F9AAB75D867AF22F46932CD51 /* NUITableViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30E70688DA658024E1557C582F7A1BB /* NUITableViewRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		276CC39DBD1BEC75577AC58A3B6686C8 /* NUISearchBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 211C8A0462FEDC7679F97FBC71F72830 /* NUISearchBarRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		277D547592EC4799A67B255C81CF6F92 /* UIWindow+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B1047F8605A0D9C88CE99DF9470E167A /* UIWindow+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		28FC6924B7A342A4AAADFE0B0ABECC83 /* UIButton+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1CDAE11F039CD3A85CC83A8F17E79 /* UIButton+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		290BCF642FACD49A77A39B4283606FD2 /* UISwitch+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 730C4CB3DFBF60CDB60390E7327F9DBB /* UISwitch+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29A53BEB5898DD2010253377A3E9C252 /* UINavigationItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF516B21B56D022718B2719103D51E2 /* UINavigationItem+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29D5ACEB58090F97FA4CE189D956D6DC /* NUIConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8C3D615D5742BC94B80ED2357C9FF0 /* NUIConverter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A9540F1CBE80884817802F31F45F45A /* NUIStyleSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F11BE48CBEB9A53BA7B2EC5D2D095886 /* NUIStyleSheetItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B1DE904C3B94E2C85249BE0929416E8 /* NUIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0344A1AA6923E9ACEE633225F61C4005 /* NUIRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B89441766709940C5EF8662ED1D317C /* NUINavigationItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FB083080F0D35CFB2CB7C71E3267BC /* NUINavigationItemRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C21970848C2EADED53C6E8DB71A3EEC /* NUIParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA96E4D646EC9D261412A6B8F441A1 /* NUIParserDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D2B52A4381A01643858A4D36BDE85ED /* NUIPRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 567ABE31DC4D20C76D8D4A778E090906 /* NUIPRule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2EB4B582B479199327D167B5FDA16C11 /* NUIPGrammar.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D5B2F95D0E307D45060800C9B18234 /* NUIPGrammar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F40A238DE5B7057468E3D5CE5065862 /* NUIControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE19E94D34520036157937003172005 /* NUIControlRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304B63A109827D6004DFEF086F42E192 /* NUIPShiftReduceParserProtectedMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B66987D7E561AF321C3B4EF2F9A1E76 /* NUIPShiftReduceParserProtectedMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34435533C4A6A238FB10A0244479F025 /* NUIVariableToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 907C766611A14ADF8CB11D662A0DFBE3 /* NUIVariableToken.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		355D11D850B12E3B065915CBFF102C46 /* NUITableViewCellRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A46DB1AD11DC34B2C07F575B7D6C1A0 /* NUITableViewCellRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355E779E5FA08697BE0856D1CF965A1C /* NUIPQuotedToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 55978281B27C5D3CAFAE2C4AD6A945D5 /* NUIPQuotedToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356ABEFF6DB3B1A0FC95916D2BE268AD /* UIBarButtonItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 340A8B0698B5EC44402DF410B22EA2A9 /* UIBarButtonItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DB56FD98A4AE20B5BDA40404EC5D07 /* NUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0CDC4691399DA764B95BC992278EB2 /* NUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B3814B9988726905543DEA05463232 /* NUIStyleSheetItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B926315DD37AB7C0C212F7C9753D2221 /* NUIStyleSheetItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392EC80B47A1DBA7485802F2E21A5E1E /* NUIPKeywordToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A55CF6134E22A43F7EFA8A994E106E /* NUIPKeywordToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3939284096E77C31B0AAED4C50A6AC62 /* NUIPRecoveryAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 900A8B8402137DE31F4A5A41BEE421E4 /* NUIPRecoveryAction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3A1B1F5E2A99E99459D0353390B058E1 /* NUIParse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA31D94DF6580124C715BE52901D7680 /* NUIParse-dummy.m */; };
+		3DFA5C275263CC903DBEAB468F73FBEF /* NUITableViewCellRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = E356689F0FAB5022331ADEE9FFA32876 /* NUITableViewCellRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3E2F3CD3C7121370919F7387388BE645 /* NUIViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B43B10081474356FFCA5BF60AAEA56 /* NUIViewRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F286911D955ABF94809EE291E841721 /* NUIRuleSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3912651B184942679A01990F2D31D3CB /* NUIRuleSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		40D5CF335C0D7CC1DC5A12DB73DC2E46 /* NUIStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CE90D7414670F405A16418382FD54E /* NUIStyleParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		420E8669F6E3B4E5B8CBCC68C53E3416 /* NUITextFieldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F579900F371A6790F7099881D20E11B /* NUITextFieldRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42285E16BE30C15E5C902A5BD03E7D86 /* NUITokeniserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C3485EB18B61F8F3926B16638EA1 /* NUITokeniserDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		44F52E9D1E62B5BC22A562E636629985 /* NUIBarButtonItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = C090C49D62E9C7939778C235D17087A5 /* NUIBarButtonItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45D0BB9DED93B9CF33B28F28671366A9 /* NUIPLR1Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 366D65CBFE2BB609DDB7C61DCF66C16B /* NUIPLR1Item.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		479A27638ACB722C25BB6AA699521899 /* NUIPShiftReduceActionTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D67E0095D8BEC48761B4C58692AFB355 /* NUIPShiftReduceActionTable.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		48258E60766325698B3D5506E14E12D1 /* NUIPRHSItemResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C592EB3E0D4DE88C05C9B6B92297C74 /* NUIPRHSItemResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4988A51950AF4F5EA08F5DB26F8FF3DF /* NUIProgressViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EB65AFA06F033E30CAD83EA3F2B442 /* NUIProgressViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AE40363FE891D52442C9863C28CB89C /* NUIPLALR1Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7D798304FB1B21E3A88357C25FBFF4 /* NUIPLALR1Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA59BB21F07BF1A1DD1870F4C1C4A03 /* NUIPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 520C404C30597DCC549FD562FFCE81B5 /* NUIPItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C15EC57473DD02809F988C2880F87C5 /* NUITabBarItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0840FDBA2CAE6173F06B2D793FD284C /* NUITabBarItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E00C87E7B0593931B57CE68B9EFA35B /* UITextField+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A33774F4E9DB919FFDD0226254A9C91 /* UITextField+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507EB53F60499299CA808C22FF710B8E /* UIControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D05C87616D2D5D20DA59C3A35191494 /* UIControl+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5252B206F8A569837177F6F110747686 /* NUIPRecoveryAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AFD73DFBCA1E823A22610AC8AE64A4 /* NUIPRecoveryAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53752CE0B2D3F305D7169336BA3E368E /* NUIPRule+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA5E03BAD6910E0C4CDD002D3B1106E /* NUIPRule+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5390F8EE0560539F92C9AC711EC8AECC /* NUIParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B8940F8878B7BD4C08D361E2485BE8D2 /* NUIParserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53DC7B6923620D94ADEB2443786FD554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D9DAEF2E2A515F2905154379002274 /* Foundation.framework */; };
+		543D8ABAB04AA0DA3B78E00F00F16F8B /* UITableView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E884F36782A7C66555BE307FF6ED63ED /* UITableView+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		565DB9C64FD6F1B9C7E11DF5C71E3D46 /* NUIToolbarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC9A5306F8614C0ABF64FB5B2065F8 /* NUIToolbarRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		579269FD8B03842821FE1580F0E7AF0A /* UILabel+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EE495FB17371C1AFF2A85708BE1B9D5C /* UILabel+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57C096920F583898CE9361389342A125 /* NUIPGrammar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7349F0F45D4414DE32BCBE4DF2D8C /* NUIPGrammar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		59CC3B07A1BC8225331E655F09DA0B69 /* NUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = B279C995D142BDAAA4AF10EBFD8B6E11 /* NUIGraphics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A271600D036CAC25CB135BFB3C31FF4 /* NUIPShiftReduceActionTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE202027ABB0333F1F0B7275829692C /* NUIPShiftReduceActionTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A72202996CD65A73A946A31A89DEB1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D9DAEF2E2A515F2905154379002274 /* Foundation.framework */; };
+		5B6F9B140B7A520594DB1C21D61EA4E7 /* NUIVariableToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 32172D0D6D08ADF280F0EEA69F840AA3 /* NUIVariableToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB23723EB99D29ADD92088CDB6567B6 /* NUIButtonRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0D6623EBEF9CF0A3B796EC4BA7D3BA /* NUIButtonRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618DB92C879217F71C4B28B4CAEE15FD /* UINavigationBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0213E8EF0D9FFDE4DEA570064B4560ED /* UINavigationBar+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		62410061B78195A4EEA27CBE3F91A287 /* UIToolbar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 654299B009BFC9A685826BB9DDA2A9F9 /* UIToolbar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63956CBB27720F1F8E9ACA8A7F70A993 /* NUINavigationBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5323E7627DDE9EF508CB2716FD0CE69A /* NUINavigationBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		649B1046EF6BDCC6BEA0AE44C1A1D520 /* UISlider+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD3B1C6EE532565E4B028D7281B18CA /* UISlider+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		655892C167C556C6A3A71B0779D14EA9 /* NUIRuleSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DE02CC81C129C22CB852AA62BA236570 /* NUIRuleSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66AD674EFC6972F31A35D75C01C9860B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED2C1DA69D3B8EADA4EA1029D07C0B /* QuartzCore.framework */; };
+		67968710C53BFAD8A16A310ABF1CFADB /* NUISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEF748A6FC98652493B40B018F2A4AC /* NUISettings.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		687BB5F855B7CCBB90DB5689091B00A3 /* NUIPParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0246A95D9611144808DED2C86D035517 /* NUIPParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A69D92939F361EFFA52F9BE5BDB6590 /* NSArray+NUIFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261EF350DBB70AF61EA565547E15EEA /* NSArray+NUIFunctional.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6CD6D7CD61A9F851AE5D1809AC816C3B /* NUIPSyntaxTree.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBA963F5C94650321A8B0C778E1ACF6 /* NUIPSyntaxTree.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6EEB9B98599B4E39B1EABAFA01F09022 /* UINavigationBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F8D15E9C50092B8DB6C9BB2AB55309 /* UINavigationBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F141B2838AE332448F48A3D88D4776B /* UITabBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 020808BCF12CA3FCE30A71F5B3DCF110 /* UITabBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727324F87A07CD0492F771338E09A562 /* UIView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AFC8F7FDE8B0887533F6464E89C8BC /* UIView+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75CE2D82C64B30629F459DE1BCA2A72D /* UILabel+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFD0BA78119E32E3700E1DB5909A29E /* UILabel+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B9F5786A216FB01570E8667702C010 /* NUIPIdentifierToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BBA6528A13D0DCA1F7FA3DE1D77BF39 /* NUIPIdentifierToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CBC0ED1B6B18396E3CCE96563306D4A /* UITextView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3295223B1F899A3A860912F2ABEA7A3B /* UITextView+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7D053E2151050A48ED4FF8C8CF26C96F /* NSSet+NUIFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C068CA8F6DCCF7BC682D5C60CB69011 /* NSSet+NUIFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D6336423263C0510E7E77AB95037E07 /* NUIPQuotedRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E90DB3C6C42785359D2A9013173802 /* NUIPQuotedRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DADF0623C75F35BD4410C7CEA0E4152 /* UINavigationItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF37C39B9BA030AE415F23C3808AAC5 /* UINavigationItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE918CD1927589A7E83AC1F4E1195BE /* NUIPLR1Item.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4ABDDD6FA9E8125888FE56B6A53D7F /* NUIPLR1Item.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E375BC455D305A3DF8D44038D4FA4E4 /* NUISwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ABD30650CE0AE1562F75F8DA5D3819 /* NUISwizzler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8185380535CF62B4D13478C789A47817 /* NUIPRHSItem+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3ED4B49D30A6E5C7AF25C0E27DBE41 /* NUIPRHSItem+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A1DFC2955F7B7790738A37478F3041 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A067CC7E7FB3BD44F7FEB49A16C4CC /* CoreImage.framework */; };
+		867150D6ABE4748A66933BF0FE39D8BA /* NUIDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF93C71227E65CD60D1201DF66B2E87 /* NUIDeclaration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8750A75DC570F6CBA5CED9FAFDAB8790 /* NUITabBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2435099B916B397A7D258F41D85BDE20 /* NUITabBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8842CC055AA036253F10F8ED54DE13D9 /* NUIPSLRParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C242FA5206A875B8E6681E916CB9CF /* NUIPSLRParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		89C7E1E012AFC90D792A53527334FD30 /* NUITextFieldRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192AA01F599621AE01A21C3A83CB147 /* NUITextFieldRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8A8A04DC76AF35C1C07F5B2AEC378BA7 /* NUIPNumberRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 593CBF75DBD1A8087628EEB37A01E14C /* NUIPNumberRecogniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8B90459531B30B59865D870EBAB15220 /* NUIPKeywordRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7FA36306798C1B3A61A1D4A6BDB47D /* NUIPKeywordRecogniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8C1CBF5DCCE0D5323C36DBB93EA7C050 /* NUISearchBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 285572786662B830C357EED9257C956E /* NUISearchBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD5E1E8AF8E068B7075E5C52A606C3C /* NUIPItem.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD0A2CF60AAA5A337ED402D124F398D /* NUIPItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2D5F1EC15E23EF68DDAA8058C5C0E5 /* NUIPQuotedToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B7BEC31925747DFAB1F1DAF62F8B93 /* NUIPQuotedToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8E261364F6693DDC055F4CB52D4045B6 /* NUIPRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DCBD32E4B634A33C69549AAC5B2BA7 /* NUIPRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E830100C6AE89188CD915BA85F36070 /* UIButton+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9A50D694FAF01ECF6E3326100ADCE2 /* UIButton+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F2C103D0049432BD14D938EF81F3687 /* NUILabelRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = E52BD71488590BC3306871E908DB9599 /* NUILabelRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7F743A4BA9AAD2C26E0ECFD805E621 /* NUISliderRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 468980ED3E131145A5B817E12E7EA5A4 /* NUISliderRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		905755768AECD202A37B895783ABAD69 /* NUIMediaOptionSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F79FEF75EBC9AA7608F5EBCA7F0AD8A7 /* NUIMediaOptionSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90A2775F48F0B87079B5DC7166FF731A /* NUIPIdentifierRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F3E1EEFF7C8CC943DF9C06C9B8F8 /* NUIPIdentifierRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DA178108031AC3AF0C32BD5BFCAF99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB91C7AEAA63AD934928E5BA139F559 /* CoreGraphics.framework */; };
+		951FEFA3FA9A3A1585326CE915957D7B /* NUISegmentedControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4783BEF6D71280E4260F3851755AD377 /* NUISegmentedControlRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		956FD9116BFA96FE92433A777E5CC784 /* UIControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CD49F6102A7A45ECBB1290FA1DA60162 /* UIControl+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A331AAE9BA807CE747AFF32BB00724 /* UIWindow+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 022BDDBC6209C47C59F7489D4346DB65 /* UIWindow+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BDBF234DF0FAB6BE49E568110BD8D8 /* NUIPWhiteSpaceToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4240E6F3CFDE50516D588B19A8F919B1 /* NUIPWhiteSpaceToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		97EEB75BA6E574D33BD0F053B74D2545 /* Pods-NUITestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6395DB32BD6E1A38A60DF7693C8657A /* Pods-NUITestApp-dummy.m */; };
+		98616E8EADE93FEEB11ECCF3580C9CA1 /* NUIPTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9239F7991EC330363594ABC7FDE1CDC4 /* NUIPTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98895004BE466F7BEF65700EC0A59E57 /* UITableView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B9AAA0AAF9E55D2DA1AC097B55F0BF /* UITableView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AFF0AC800C4FFAAA797109E28F4323E /* NUIPWhiteSpaceToken.h in Headers */ = {isa = PBXBuildFile; fileRef = AB448C109A48FB9435E7DC0BFD5C98A6 /* NUIPWhiteSpaceToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D5F6AAD8B675FD0EFD92C9A988BEE31 /* NUIPShiftReduceState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2263861D850F0546250F1D7E123B6713 /* NUIPShiftReduceState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EA6829D2FD4110DD5FC166A7BEED4D1 /* UIProgressView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EC839709296A186F8EB116D90D685F5C /* UIProgressView+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A139593E2FD9A9E5FA8F2214A6215E01 /* NUIPNumberRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8AB8C997EEAD1B5C3EE94239BE9011 /* NUIPNumberRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A200C3E91EB430D80465910E580F6434 /* UIToolbar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B190AB2537C2C628483A7EC6C3E454B /* UIToolbar+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A31ADFA207C34F5D6FE65D92F0F9B915 /* NUIPLR1Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C70DEB4904AA29B929A0F546DAFEF3 /* NUIPLR1Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A487DA21D7D47A859FA0D1AAB89EC1D7 /* NUIPShiftReduceGotoTable.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BA3ADED6B423A8E9D6226D0559D20C /* NUIPShiftReduceGotoTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48D50B27267645C9EEF7434B5DA6056 /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FED249CE5A0F5ACB366AA27CDC8019 /* NUIAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E975A68BCE70EF031C2C10951C7EDE /* UIView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3B0CDAF92F0017744807EE966F88F6 /* UIView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6308D600DCE2F9FFE8013E764BE8CB9 /* NUIPShiftReduceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 311F7CEE8C0FCF0B04AF86286612C078 /* NUIPShiftReduceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A670E6E0B814CEF0AA87A02553E559C8 /* NUIPEOFToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A4199FB1A4B6F23C867E8C876A8B8E27 /* NUIPEOFToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6A1993A50AC4FA4916CDFC55AE8FDFB /* UITabBarItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F72F8910BBB8B4DA013C35076E70A2 /* UITabBarItem+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A8A58D10A65D1A11F449E29934B89469 /* NUIPShiftReduceGotoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 84323E8F8C321E434DD26025108C3BF9 /* NUIPShiftReduceGotoTable.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A9828AA28F2AE410127EB40053D173B4 /* NUIPNumberToken.h in Headers */ = {isa = PBXBuildFile; fileRef = C15F6B129BA1347C5D36E132B27EAEBD /* NUIPNumberToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8007BFCFB4034D078A3B7CA7C273FF /* UITextField+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F265C23E4A2DCEDA894E62E111801AD8 /* UITextField+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ACA5F5AFF7AD5DF8AF04AB1B7E06751A /* NUIPRHSItemResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A109AD3705914ED5DFB6D1F390C83 /* NUIPRHSItemResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACF41E2FEF3F5E33F7BE6ABE12370DB6 /* NUIPTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C3600C0B85456DC8DCFE591A73EDEA /* NUIPTokenStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACF6893C0C43B0EA2E16AA04B36B2F27 /* NUIPGrammarInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A66A8798A451B7745D83823EC101AB8 /* NUIPGrammarInternal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ADA687C8095413B1E0CBE5F2A295E961 /* NUITextViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDB265CE32DEEA98745B55E1A40A626 /* NUITextViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA263974A3AD8B32701C49F7F796ED6 /* NUIPKeywordRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BDBA59B1AF015A93423B52BB45D23E /* NUIPKeywordRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF136E4FDC399674DDD26DAE2D49B0A1 /* NUIWindowRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B9651A585CB5C3A2024669FEBE38BA91 /* NUIWindowRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF80DA4D0BAB1D5201FF55C4B8A48CE5 /* UIProgressView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C48101EC3852D244D371C125D5B760F7 /* UIProgressView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1660134006312557B22858B73571196 /* NUIPQuotedRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA629C71FB8852AA9A95FE2EB68F344 /* NUIPQuotedRecogniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B2D391264886BAA7DFA53F0978013BCB /* UISearchBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DF3E37057662A7BC2FD91B6CAECD6C /* UISearchBar+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B4146C5D340DF807D6A8575EAA5EF011 /* NUIConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5B282962F81BAFD03608958DBBE615 /* NUIConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49DAC95E9A168DFC7E3BE02D5D7AA7C /* NUIPRHSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6707D15DBCFAD580238CBED80F17C4 /* NUIPRHSItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B53BBAA3FDEF36F96C9504115CB8C2C0 /* NUIDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 485E5E6D4841069E2635CF9477B50555 /* NUIDefinition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6047859E49E6AA9A3CBC759AD8962A0 /* NUIPGrammarPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DDC8B13293436C97E12B19320FF970 /* NUIPGrammarPrivate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B69D01FE3F9E9C96043BDAE6D6525086 /* NUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22261A5D62436E8D77762AADFB0E6E21 /* NUI-dummy.m */; };
+		B72DC5F84B2412A5816DA7BB2F54D59C /* NUISelectorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD291C823BC73766D92CDBFE96DADF /* NUISelectorSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B82AB499B55899B32536428544FDB47F /* UISlider+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCEE6B11A8EDDAB9980E9A4F6F8AD15 /* UISlider+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B910B1A9571310415D16A31126BF66E3 /* NUITableViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFC9E2C243A199E5DBDE2822A9D6B04 /* NUITableViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3846519A6ACF17A2100CA26156DEAC /* NUIPLALR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD6A07D0771240245CBC8F3EC7617 /* NUIPLALR1Parser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BC6DA772A4C1C8A50C079EF8866AD36F /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C3C207C06F707FE63AAAF0938F968E /* NUIStyleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9EE667C4938831704D392DC01EC360 /* NUIDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8743408D877358E59C39EDFEB5D4A080 /* NUIDeclaration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE1706D5C058384B88B98F2399EC09AB /* NUIPEOFToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 44181FA24780B64B6DEF33AEE562F3EE /* NUIPEOFToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF237CA72A16DC48E723F3C77CCBFFCF /* NUIPGrammarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB51899247647A190EE8B2C025A003A /* NUIPGrammarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF3B7F26F67E9A5BB642AA5C8D276685 /* UITabBarItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E03090BAF4937D94D2F5ABAAC9377B /* UITabBarItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F8B7FDC32588611CC9848094BD7CE4 /* NUIPRegexpRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 224420272992FF110C75F2A0A6BCB8F3 /* NUIPRegexpRecogniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C208FC65DC96BD298B4C5657794DF991 /* NUIMediaBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 15235085F95C93F7CEB3068D07F2E50C /* NUIMediaBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B8EC3F4EBB50B53465632E360C10F0 /* NUIPJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E884810A6AC4D0D24C1193BF6B8CA91 /* NUIPJSONParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C4C0BA3CB155406A98F1151F23666852 /* NUIDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6E255EFEFB3CEC8237403FC3655720 /* NUIDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6B86AB1DF56F43FCB9380BCE0AE9340 /* NUISliderRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = C52AFA833A25D197F910AAA19FE03E62 /* NUISliderRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C80080DE51786C2B50E993FFC41CDEF4 /* NUIPSLRParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 98334EDA2F87D4328AF94951378099B5 /* NUIPSLRParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82C8BA3F3C01235A3BD857476B88D91 /* NUIPRegexpRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = AF553B74C44B76AE932688CF35BBD5BE /* NUIPRegexpRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C840D3CCB36B5CB57B0DB85939FAF625 /* UITableViewCell+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D62BA52277C53A750E7FEA5F98660 /* UITableViewCell+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8D81C9EA5D189E459C7A7E8C73B84D8 /* NUIParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 51320F9E9F9BF2FE27CA9950A0FB1CA7 /* NUIParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8FB2B0A88DD55F4D1DB10038AB7BA3C /* NUILabelRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11659BCD118FBDF9EF2D878EC43391A0 /* NUILabelRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C9B2D69152D7A439B0D12A5206F02261 /* NUIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FF019F49EE8AA52F833BA7FC1B476AC9 /* NUIUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA116A1635B3ED7D2E918913851CB08E /* NUIToolbarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F95BD38FDEF024B736EFDF0CE4A85A6 /* NUIToolbarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAD81F3A21E675140BD2EE8F8A4413CA /* NUIPNumberToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B1A439E741E003851F765CF6085C66 /* NUIPNumberToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC6C26BF581C742C52340C9DFC9A6917 /* NUIControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B61CD5600EB09F9FFF4EE874B31FEC1B /* NUIControlRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCFDB78FD31C53F4D6B2E51A644C3262 /* NUIBarButtonItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBA2E6F60E81D6CB2D612FA11F44EBB /* NUIBarButtonItemRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D28CE83C27577D61EFC4F56880131A71 /* NUIMediaBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E755417A7140612BA40F7F3D72271A5 /* NUIMediaBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D53DF8E4313C919B9EAC283ECEFE475A /* NUIPWhiteSpaceRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCAAF456BC8A1A6C42CA409A348B960 /* NUIPWhiteSpaceRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D602DA5EE1997F63EC09201B7E867C83 /* NUISegmentedControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A894FB379ABF66A117F0CD191CD553 /* NUISegmentedControlRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D99AE5919DCC7F0A36BEA4172EC95DFC /* NUIPKeywordToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 496BB959F321AC9FD2BF6EEE2C9F3792 /* NUIPKeywordToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DBE61D4F6A0B6F9EB02048D424F4F9DB /* UITextView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C3586AD81A9AFE0FB533D87337505B1F /* UITextView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD074FC837A650787D3867F0CCB33965 /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E5FFF7D7FFC0CBB1C6992B81920DE2 /* NUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD6283313DBF25461FAF3E60DD5E3086 /* NUIPTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FE1D02F1645851F0071492D3C48A9E /* NUIPTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DF26FEE8830DA3462E5A0AF977C7FE45 /* NUIPGrammarInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AB36325B1EB1979FA2E62488E10F6F37 /* NUIPGrammarInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF674D29E2703FDA4B5AF05C5D271017 /* NUIPTokenRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = A33571E2E5241A444D44D5C4831CC479 /* NUIPTokenRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD65C17399CF1CCAB52F9CD2822A1BA /* NUIPLR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3795A81BE8890BC0B2A3030C9D5BD /* NUIPLR1Parser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E0603FD6234A9C743933F94BB405F6C5 /* NUIPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 791318EFA7B6C66193A2DEE862F21DEB /* NUIPToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E150C3B1E14C4F1C5491328548285ED4 /* NUIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E019B0E132B585E4055EECB86B9E2F1 /* NUIUtilities.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E31BC5CC844B036BB101A3B0D6FD99FC /* NUIPErrorToken.m in Sources */ = {isa = PBXBuildFile; fileRef = E7774A17EECD9DA1FBF0C00E06E2D03E /* NUIPErrorToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E356DF67CBAD7030EF2919AECF4AD0C8 /* UITabBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7D5B176D6CB49732A87D03568879AC /* UITabBar+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E41046D4548BEE84E37201B436C9D9CD /* NUIPToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 6303B47537888EB07779427BAABFFBF2 /* NUIPToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E436E44D3C0B1E873B4A5C65F0605077 /* NUIGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 971F3D29D03E6D082C510838E5A8108D /* NUIGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4613FC33FA2079F8D90CECBB3E0A903 /* NUINavigationBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = E78BD1A54B6A9E39A3BEC48B9AE7A93D /* NUINavigationBarRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E47BAA63ABE8BDA04A306B690DD39CCB /* NUIPTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3874A1DA84615353FA2F9B8F2854D674 /* NUIPTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5B4A69E30C6DB79DE2CEBA29BEEC090 /* NUIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC4789ACDBCC19F738CD33F77892A0B /* NUIRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5C84204F3156C03361DC836988B9F76 /* NUIPWhiteSpaceRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2666E0719A67C4C0CCA07DC8413C16 /* NUIPWhiteSpaceRecogniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E82992619BD4925B4EEB0D700454C952 /* UISegmentedControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 98192D3946C76FC64ABD5272F92342E7 /* UISegmentedControl+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84DE45A1479F8AFE8FBBDEC42C7EA43 /* UIBarButtonItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B9301A82390E2D0F49982403E95D73 /* UIBarButtonItem+NUI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E9596283E02514A86963D5E5630EE0EE /* NUIPGrammarSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07C6B07F3F32CC2F7BF24628877DC2 /* NUIPGrammarSymbol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E9DFA034BF58680D999C35A46DBD5C07 /* NUIPSyntaxTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 670128A25D0671A8C6A57D26BE22DF96 /* NUIPSyntaxTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB32F68A0F260EBFE1F0E5C06D4F06E7 /* NUIWindowRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 803E3D13C94375D2536A6595CCE2CCCE /* NUIWindowRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE3B3701A01E2FD7C1716CB7A2984B17 /* NUIPShiftReduceAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 689F2B672001FF40A89C78C0CD3AEA6C /* NUIPShiftReduceAction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF351065FE3A00BE5E6633045D067B34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ACB25F6E5ECF86743BC745A927C100 /* UIKit.framework */; };
+		EF952207271C529527EB4A4C3EDE3417 /* NUIMediaOptionSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB304DF8C56E805CA5C964766067FF /* NUIMediaOptionSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F070A0E47E0BD0629FB5C37E19524EF0 /* NUIPRHSItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 73895E276BD635B87E9229A6E39238EA /* NUIPRHSItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0DF5783F0270CE596AD4FA566D1F66E /* NUIStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 086EA5C34C9F9073AB335E14FBE8ABAE /* NUIStyleSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24C632AD53088A46BDE3082F5B29041 /* NUITokeniserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3893AC1534D60FBDAB7B2A80148E4B3F /* NUITokeniserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B10D2D178F7321A65E186536A8992F /* NUIPShiftAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B481AA405DF4D841E0933C6679A8BC /* NUIPShiftAction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F416EE113FD2A25C5DB3FCC81E2E6C55 /* NUITabBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 943E4D9DED91F5D4EE659ABE0E887B59 /* NUITabBarRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F443226BC43DC654A74DE486F848EC55 /* NUIPIdentifierRecogniser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5279E68425985DD8DAE5AC33757F98 /* NUIPIdentifierRecogniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6EC4167E9B54ADF44BF5CD72E93CA44 /* NUIFileMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BD81769E9B1E5307CC561A1EECF1F3 /* NUIFileMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F702AF6099787F561A82219B9B3106E3 /* NUIPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C1AE2FD1CBBFFE97BC717F4FEE192 /* NUIPParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA92C02F3CCD09D953B6FFD0CCABB3B6 /* NUISwitchRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 895FB011428F1E9FAB52C7A75C5E4C54 /* NUISwitchRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDB1A33AAE4536B72FAB76941B2C7E48 /* UITableViewCell+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B2E814A250338F5DC313B8A59629BA /* UITableViewCell+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE18FB81C3A7872DC75624C3FD5D351F /* NUITextViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 480DE590FCC7AA2C35D6410B9B7B755B /* NUITextViewRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B216C33394710502EAC0B600DC4AB53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5FC82AAA0C0BF556A4ACB312841E1F;
+			remoteInfo = NUIParse;
+		};
+		ABDACB90E0C7C58AB2932BF5A0CB9803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5FC82AAA0C0BF556A4ACB312841E1F;
+			remoteInfo = NUIParse;
+		};
+		E00B0CC19EB0DC83E58350B566F4256E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25CC8DF9F654DD673EDE4FE4F565DA86;
+			remoteInfo = NUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A3D7D0E9D3258540913211A65E6EA0 /* Blue.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Blue.NUI.nss; path = NUI/Themes/Blue.NUI.nss; sourceTree = "<group>"; };
+		00A55CF6134E22A43F7EFA8A994E106E /* NUIPKeywordToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPKeywordToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPKeywordToken.h"; sourceTree = "<group>"; };
+		020808BCF12CA3FCE30A71F5B3DCF110 /* UITabBar+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+NUI.h"; path = "NUI/UI/UITabBar+NUI.h"; sourceTree = "<group>"; };
+		0213E8EF0D9FFDE4DEA570064B4560ED /* UINavigationBar+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+NUI.m"; path = "NUI/UI/UINavigationBar+NUI.m"; sourceTree = "<group>"; };
+		022BDDBC6209C47C59F7489D4346DB65 /* UIWindow+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+NUI.h"; path = "NUI/UI/UIWindow+NUI.h"; sourceTree = "<group>"; };
+		0246A95D9611144808DED2C86D035517 /* NUIPParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPParser.h; path = NUIParse/Parsers/NUIPParser.h; sourceTree = "<group>"; };
+		0344A1AA6923E9ACEE633225F61C4005 /* NUIRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIRenderer.h; path = NUI/Core/NUIRenderer.h; sourceTree = "<group>"; };
+		06ED2C1DA69D3B8EADA4EA1029D07C0B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		076DB83BF58D2F47D1E58E186F915F11 /* UISwitch+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwitch+NUI.h"; path = "NUI/UI/UISwitch+NUI.h"; sourceTree = "<group>"; };
+		086EA5C34C9F9073AB335E14FBE8ABAE /* NUIStyleSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIStyleSheet.h; path = NUI/Core/Parser/NUIStyleSheet.h; sourceTree = "<group>"; };
+		0BB91C7AEAA63AD934928E5BA139F559 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0E019B0E132B585E4055EECB86B9E2F1 /* NUIUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIUtilities.m; path = NUI/Core/NUIUtilities.m; sourceTree = "<group>"; };
+		107CC2477162EAA12F52B1C99EC42F35 /* NUIPJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPJSONParser.h; path = "NUIParse/Built In Parsers/NUIPJSONParser.h"; sourceTree = "<group>"; };
+		11659BCD118FBDF9EF2D878EC43391A0 /* NUILabelRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUILabelRenderer.m; path = NUI/Core/Renderers/NUILabelRenderer.m; sourceTree = "<group>"; };
+		125ED712072262FEADF5513C86271C2C /* NUIButtonRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIButtonRenderer.m; path = NUI/Core/Renderers/NUIButtonRenderer.m; sourceTree = "<group>"; };
+		13F8D15E9C50092B8DB6C9BB2AB55309 /* UINavigationBar+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+NUI.h"; path = "NUI/UI/UINavigationBar+NUI.h"; sourceTree = "<group>"; };
+		15235085F95C93F7CEB3068D07F2E50C /* NUIMediaBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIMediaBlock.h; path = NUI/Core/Parser/NUIMediaBlock.h; sourceTree = "<group>"; };
+		1755D7FBCB07EA18BCD004A80D4F7E92 /* NSSet+NUIFunctional.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+NUIFunctional.m"; path = "NUIParse/NSSet+NUIFunctional.m"; sourceTree = "<group>"; };
+		18C2FE7D7E61F026676D5E71424CC644 /* NUIStyle.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NUIStyle.nss; path = NUI/NUIStyle.nss; sourceTree = "<group>"; };
+		1A30682883F567F38E18FC1EFFEB7DBF /* NUIFileMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIFileMonitor.m; path = NUI/Core/NUIFileMonitor.m; sourceTree = "<group>"; };
+		1A8AB8C997EEAD1B5C3EE94239BE9011 /* NUIPNumberRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPNumberRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPNumberRecogniser.h"; sourceTree = "<group>"; };
+		1D4DE06639D29766FBA1DEFB19EFB54D /* NUIPShiftReduceParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPShiftReduceParser.m; path = NUIParse/Parsers/NUIPShiftReduceParser.m; sourceTree = "<group>"; };
+		1DF93C71227E65CD60D1201DF66B2E87 /* NUIDeclaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIDeclaration.h; path = NUI/Core/Parser/NUIDeclaration.h; sourceTree = "<group>"; };
+		211C8A0462FEDC7679F97FBC71F72830 /* NUISearchBarRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISearchBarRenderer.m; path = NUI/Core/Renderers/NUISearchBarRenderer.m; sourceTree = "<group>"; };
+		22261A5D62436E8D77762AADFB0E6E21 /* NUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NUI-dummy.m"; sourceTree = "<group>"; };
+		224420272992FF110C75F2A0A6BCB8F3 /* NUIPRegexpRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPRegexpRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPRegexpRecogniser.m"; sourceTree = "<group>"; };
+		2263861D850F0546250F1D7E123B6713 /* NUIPShiftReduceState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPShiftReduceState.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceState.h; sourceTree = "<group>"; };
+		2370B5AF8B297F9504506216612104DE /* Default.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Default.NUI.nss; path = NUI/Themes/Default.NUI.nss; sourceTree = "<group>"; };
+		2435099B916B397A7D258F41D85BDE20 /* NUITabBarRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITabBarRenderer.h; path = NUI/Core/Renderers/NUITabBarRenderer.h; sourceTree = "<group>"; };
+		26EB65AFA06F033E30CAD83EA3F2B442 /* NUIProgressViewRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIProgressViewRenderer.h; path = NUI/Core/Renderers/NUIProgressViewRenderer.h; sourceTree = "<group>"; };
+		27A067CC7E7FB3BD44F7FEB49A16C4CC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		285572786662B830C357EED9257C956E /* NUISearchBarRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISearchBarRenderer.h; path = NUI/Core/Renderers/NUISearchBarRenderer.h; sourceTree = "<group>"; };
+		29FC9A5306F8614C0ABF64FB5B2065F8 /* NUIToolbarRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIToolbarRenderer.m; path = NUI/Core/Renderers/NUIToolbarRenderer.m; sourceTree = "<group>"; };
+		2B07C6B07F3F32CC2F7BF24628877DC2 /* NUIPGrammarSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPGrammarSymbol.m; path = NUIParse/Grammar/NUIPGrammarSymbol.m; sourceTree = "<group>"; };
+		2B0CDC4691399DA764B95BC992278EB2 /* NUIConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIConstants.h; path = NUI/Core/NUIConstants.h; sourceTree = "<group>"; };
+		2C4ABDDD6FA9E8125888FE56B6A53D7F /* NUIPLR1Item.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPLR1Item.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPLR1Item.h; sourceTree = "<group>"; };
+		2CE1CDAE11F039CD3A85CC83A8F17E79 /* UIButton+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+NUI.m"; path = "NUI/UI/UIButton+NUI.m"; sourceTree = "<group>"; };
+		2CF516B21B56D022718B2719103D51E2 /* UINavigationItem+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+NUI.m"; path = "NUI/UI/UINavigationItem+NUI.m"; sourceTree = "<group>"; };
+		2E755417A7140612BA40F7F3D72271A5 /* NUIMediaBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIMediaBlock.m; path = NUI/Core/Parser/NUIMediaBlock.m; sourceTree = "<group>"; };
+		2F3B0CDAF92F0017744807EE966F88F6 /* UIView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NUI.h"; path = "NUI/UI/UIView+NUI.h"; sourceTree = "<group>"; };
+		311F7CEE8C0FCF0B04AF86286612C078 /* NUIPShiftReduceParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPShiftReduceParser.h; path = NUIParse/Parsers/NUIPShiftReduceParser.h; sourceTree = "<group>"; };
+		32172D0D6D08ADF280F0EEA69F840AA3 /* NUIVariableToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIVariableToken.h; path = NUI/Core/Parser/NUIVariableToken.h; sourceTree = "<group>"; };
+		3295223B1F899A3A860912F2ABEA7A3B /* UITextView+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+NUI.m"; path = "NUI/UI/UITextView+NUI.m"; sourceTree = "<group>"; };
+		3302D36E4058D16DC0928CBDA1CB2AA5 /* NUIParse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NUIParse-prefix.pch"; sourceTree = "<group>"; };
+		340A8B0698B5EC44402DF410B22EA2A9 /* UIBarButtonItem+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+NUI.h"; path = "NUI/UI/UIBarButtonItem+NUI.h"; sourceTree = "<group>"; };
+		353DD4008E21E8854CEE4105136C47F9 /* NUISwitchRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISwitchRenderer.h; path = NUI/Core/Renderers/NUISwitchRenderer.h; sourceTree = "<group>"; };
+		366D65CBFE2BB609DDB7C61DCF66C16B /* NUIPLR1Item.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPLR1Item.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPLR1Item.m; sourceTree = "<group>"; };
+		37E90DB3C6C42785359D2A9013173802 /* NUIPQuotedRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPQuotedRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPQuotedRecogniser.h"; sourceTree = "<group>"; };
+		3874A1DA84615353FA2F9B8F2854D674 /* NUIPTokenStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPTokenStream.h; path = NUIParse/Tokenisation/NUIPTokenStream.h; sourceTree = "<group>"; };
+		3893AC1534D60FBDAB7B2A80148E4B3F /* NUITokeniserDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITokeniserDelegate.h; path = NUI/Core/Parser/NUITokeniserDelegate.h; sourceTree = "<group>"; };
+		3912651B184942679A01990F2D31D3CB /* NUIRuleSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIRuleSet.m; path = NUI/Core/Parser/NUIRuleSet.m; sourceTree = "<group>"; };
+		39ABD30650CE0AE1562F75F8DA5D3819 /* NUISwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISwizzler.m; path = NUI/Core/NUISwizzler.m; sourceTree = "<group>"; };
+		3B190AB2537C2C628483A7EC6C3E454B /* UIToolbar+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+NUI.m"; path = "NUI/UI/UIToolbar+NUI.m"; sourceTree = "<group>"; };
+		3BBA6528A13D0DCA1F7FA3DE1D77BF39 /* NUIPIdentifierToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPIdentifierToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPIdentifierToken.h"; sourceTree = "<group>"; };
+		3D6E255EFEFB3CEC8237403FC3655720 /* NUIDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIDefinition.h; path = NUI/Core/Parser/NUIDefinition.h; sourceTree = "<group>"; };
+		3F579900F371A6790F7099881D20E11B /* NUITextFieldRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITextFieldRenderer.h; path = NUI/Core/Renderers/NUITextFieldRenderer.h; sourceTree = "<group>"; };
+		405C1AE2FD1CBBFFE97BC717F4FEE192 /* NUIPParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPParser.m; path = NUIParse/Parsers/NUIPParser.m; sourceTree = "<group>"; };
+		4192AA01F599621AE01A21C3A83CB147 /* NUITextFieldRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITextFieldRenderer.m; path = NUI/Core/Renderers/NUITextFieldRenderer.m; sourceTree = "<group>"; };
+		4240E6F3CFDE50516D588B19A8F919B1 /* NUIPWhiteSpaceToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPWhiteSpaceToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPWhiteSpaceToken.m"; sourceTree = "<group>"; };
+		44181FA24780B64B6DEF33AEE562F3EE /* NUIPEOFToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPEOFToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPEOFToken.h"; sourceTree = "<group>"; };
+		4463F3E1EEFF7C8CC943DF9C06C9B8F8 /* NUIPIdentifierRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPIdentifierRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPIdentifierRecogniser.h"; sourceTree = "<group>"; };
+		44D5B2F95D0E307D45060800C9B18234 /* NUIPGrammar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPGrammar.h; path = NUIParse/Grammar/NUIPGrammar.h; sourceTree = "<group>"; };
+		45FB083080F0D35CFB2CB7C71E3267BC /* NUINavigationItemRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUINavigationItemRenderer.m; path = NUI/Core/Renderers/NUINavigationItemRenderer.m; sourceTree = "<group>"; };
+		468980ED3E131145A5B817E12E7EA5A4 /* NUISliderRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISliderRenderer.m; path = NUI/Core/Renderers/NUISliderRenderer.m; sourceTree = "<group>"; };
+		4783BEF6D71280E4260F3851755AD377 /* NUISegmentedControlRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISegmentedControlRenderer.h; path = NUI/Core/Renderers/NUISegmentedControlRenderer.h; sourceTree = "<group>"; };
+		480DE590FCC7AA2C35D6410B9B7B755B /* NUITextViewRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITextViewRenderer.m; path = NUI/Core/Renderers/NUITextViewRenderer.m; sourceTree = "<group>"; };
+		485E5E6D4841069E2635CF9477B50555 /* NUIDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIDefinition.m; path = NUI/Core/Parser/NUIDefinition.m; sourceTree = "<group>"; };
+		496BB959F321AC9FD2BF6EEE2C9F3792 /* NUIPKeywordToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPKeywordToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPKeywordToken.m"; sourceTree = "<group>"; };
+		4A4DE5FF1FF111D3D1CC0CE8DF0C678A /* NUINavigationItemRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUINavigationItemRenderer.h; path = NUI/Core/Renderers/NUINavigationItemRenderer.h; sourceTree = "<group>"; };
+		4AEF748A6FC98652493B40B018F2A4AC /* NUISettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISettings.m; path = NUI/Core/NUISettings.m; sourceTree = "<group>"; };
+		4AFA7389AC8DA4051BF152C4A685AD28 /* NUIPIdentifierToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPIdentifierToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPIdentifierToken.m"; sourceTree = "<group>"; };
+		4C068CA8F6DCCF7BC682D5C60CB69011 /* NSSet+NUIFunctional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+NUIFunctional.h"; path = "NUIParse/NSSet+NUIFunctional.h"; sourceTree = "<group>"; };
+		4DE202027ABB0333F1F0B7275829692C /* NUIPShiftReduceActionTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPShiftReduceActionTable.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceActionTable.h; sourceTree = "<group>"; };
+		4E884810A6AC4D0D24C1193BF6B8CA91 /* NUIPJSONParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPJSONParser.m; path = "NUIParse/Built In Parsers/NUIPJSONParser.m"; sourceTree = "<group>"; };
+		51320F9E9F9BF2FE27CA9950A0FB1CA7 /* NUIParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIParse.h; path = NUIParse/NUIParse.h; sourceTree = "<group>"; };
+		520C404C30597DCC549FD562FFCE81B5 /* NUIPItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPItem.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPItem.m; sourceTree = "<group>"; };
+		5261EF350DBB70AF61EA565547E15EEA /* NSArray+NUIFunctional.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+NUIFunctional.m"; path = "NUIParse/NSArray+NUIFunctional.m"; sourceTree = "<group>"; };
+		52B2E814A250338F5DC313B8A59629BA /* UITableViewCell+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+NUI.h"; path = "NUI/UI/UITableViewCell+NUI.h"; sourceTree = "<group>"; };
+		5323E7627DDE9EF508CB2716FD0CE69A /* NUINavigationBarRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUINavigationBarRenderer.h; path = NUI/Core/Renderers/NUINavigationBarRenderer.h; sourceTree = "<group>"; };
+		55978281B27C5D3CAFAE2C4AD6A945D5 /* NUIPQuotedToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPQuotedToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPQuotedToken.h"; sourceTree = "<group>"; };
+		567ABE31DC4D20C76D8D4A778E090906 /* NUIPRule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPRule.m; path = NUIParse/Grammar/NUIPRule.m; sourceTree = "<group>"; };
+		593CBF75DBD1A8087628EEB37A01E14C /* NUIPNumberRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPNumberRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPNumberRecogniser.m"; sourceTree = "<group>"; };
+		595834ABC0F57FE688BE26EAF0D54EFA /* libNUIParse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNUIParse.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B66987D7E561AF321C3B4EF2F9A1E76 /* NUIPShiftReduceParserProtectedMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPShiftReduceParserProtectedMethods.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceParserProtectedMethods.h; sourceTree = "<group>"; };
+		5BCAAF456BC8A1A6C42CA409A348B960 /* NUIPWhiteSpaceRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPWhiteSpaceRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPWhiteSpaceRecogniser.h"; sourceTree = "<group>"; };
+		5C592EB3E0D4DE88C05C9B6B92297C74 /* NUIPRHSItemResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPRHSItemResult.h; path = NUIParse/Grammar/NUIPRHSItemResult.h; sourceTree = "<group>"; };
+		5D05C87616D2D5D20DA59C3A35191494 /* UIControl+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+NUI.m"; path = "NUI/UI/UIControl+NUI.m"; sourceTree = "<group>"; };
+		6039B33FFBFE2647C12DD2E90A4761DE /* libNUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B43B10081474356FFCA5BF60AAEA56 /* NUIViewRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIViewRenderer.m; path = NUI/Core/Renderers/NUIViewRenderer.m; sourceTree = "<group>"; };
+		6303B47537888EB07779427BAABFFBF2 /* NUIPToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPToken.h"; sourceTree = "<group>"; };
+		651AEA31DFDF1845DB614080E0B52210 /* NUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NUI-prefix.pch"; sourceTree = "<group>"; };
+		654299B009BFC9A685826BB9DDA2A9F9 /* UIToolbar+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+NUI.h"; path = "NUI/UI/UIToolbar+NUI.h"; sourceTree = "<group>"; };
+		6698D0D1B3382A83E7529B0C084A9406 /* NUISelectorSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISelectorSet.h; path = NUI/Core/Parser/NUISelectorSet.h; sourceTree = "<group>"; };
+		670128A25D0671A8C6A57D26BE22DF96 /* NUIPSyntaxTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPSyntaxTree.h; path = "NUIParse/Syntax Tree/NUIPSyntaxTree.h"; sourceTree = "<group>"; };
+		688664F33111F4E0FDF43978E7BD3D24 /* NUIViewRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIViewRenderer.h; path = NUI/Core/Renderers/NUIViewRenderer.h; sourceTree = "<group>"; };
+		689F2B672001FF40A89C78C0CD3AEA6C /* NUIPShiftReduceAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPShiftReduceAction.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceAction.m; sourceTree = "<group>"; };
+		68B9AAA0AAF9E55D2DA1AC097B55F0BF /* UITableView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+NUI.h"; path = "NUI/UI/UITableView+NUI.h"; sourceTree = "<group>"; };
+		68DCBD32E4B634A33C69549AAC5B2BA7 /* NUIPRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPRule.h; path = NUIParse/Grammar/NUIPRule.h; sourceTree = "<group>"; };
+		6A46DB1AD11DC34B2C07F575B7D6C1A0 /* NUITableViewCellRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITableViewCellRenderer.h; path = NUI/Core/Renderers/NUITableViewCellRenderer.h; sourceTree = "<group>"; };
+		6D7D798304FB1B21E3A88357C25FBFF4 /* NUIPLALR1Parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPLALR1Parser.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPLALR1Parser.h; sourceTree = "<group>"; };
+		6F7FA36306798C1B3A61A1D4A6BDB47D /* NUIPKeywordRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPKeywordRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPKeywordRecogniser.m"; sourceTree = "<group>"; };
+		6FA5E03BAD6910E0C4CDD002D3B1106E /* NUIPRule+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NUIPRule+Internal.h"; path = "NUIParse/Grammar/NUIPRule+Internal.h"; sourceTree = "<group>"; };
+		6FE19E94D34520036157937003172005 /* NUIControlRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIControlRenderer.h; path = NUI/Core/Renderers/NUIControlRenderer.h; sourceTree = "<group>"; };
+		7037DCB1785583E0AC57359EAED1C6D9 /* NUIViewBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NUIViewBackground.png; path = NUI/Resources/NUIViewBackground.png; sourceTree = "<group>"; };
+		7206C7D1FEE2AD5710278F8ACF77F1C2 /* Switchboard.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Switchboard.NUI.nss; path = NUI/Themes/Switchboard.NUI.nss; sourceTree = "<group>"; };
+		72DDC8B13293436C97E12B19320FF970 /* NUIPGrammarPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPGrammarPrivate.m; path = NUIParse/Grammar/NUIPGrammarPrivate.m; sourceTree = "<group>"; };
+		730C4CB3DFBF60CDB60390E7327F9DBB /* UISwitch+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+NUI.m"; path = "NUI/UI/UISwitch+NUI.m"; sourceTree = "<group>"; };
+		73895E276BD635B87E9229A6E39238EA /* NUIPRHSItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPRHSItem.h; path = NUIParse/Grammar/NUIPRHSItem.h; sourceTree = "<group>"; };
+		7492661E6489217761E181451FF63673 /* Pods-NUITestApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NUITestApp-resources.sh"; sourceTree = "<group>"; };
+		75E4E14FD618CEEE4168FA5266B3B11B /* libPods-NUITestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NUITestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791318EFA7B6C66193A2DEE862F21DEB /* NUIPToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPToken.m"; sourceTree = "<group>"; };
+		7A33774F4E9DB919FFDD0226254A9C91 /* UITextField+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+NUI.h"; path = "NUI/UI/UITextField+NUI.h"; sourceTree = "<group>"; };
+		7A5B282962F81BAFD03608958DBBE615 /* NUIConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIConverter.h; path = NUI/Core/NUIConverter.h; sourceTree = "<group>"; };
+		7A66A8798A451B7745D83823EC101AB8 /* NUIPGrammarInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPGrammarInternal.m; path = NUIParse/Grammar/NUIPGrammarInternal.m; sourceTree = "<group>"; };
+		7B4D62BA52277C53A750E7FEA5F98660 /* UITableViewCell+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+NUI.m"; path = "NUI/UI/UITableViewCell+NUI.m"; sourceTree = "<group>"; };
+		7CD7349F0F45D4414DE32BCBE4DF2D8C /* NUIPGrammar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPGrammar.m; path = NUIParse/Grammar/NUIPGrammar.m; sourceTree = "<group>"; };
+		7DB51899247647A190EE8B2C025A003A /* NUIPGrammarSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPGrammarSymbol.h; path = NUIParse/Grammar/NUIPGrammarSymbol.h; sourceTree = "<group>"; };
+		7F95BD38FDEF024B736EFDF0CE4A85A6 /* NUIToolbarRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIToolbarRenderer.h; path = NUI/Core/Renderers/NUIToolbarRenderer.h; sourceTree = "<group>"; };
+		803E3D13C94375D2536A6595CCE2CCCE /* NUIWindowRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIWindowRenderer.m; path = NUI/Core/Renderers/NUIWindowRenderer.m; sourceTree = "<group>"; };
+		809CD6A07D0771240245CBC8F3EC7617 /* NUIPLALR1Parser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPLALR1Parser.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPLALR1Parser.m; sourceTree = "<group>"; };
+		84323E8F8C321E434DD26025108C3BF9 /* NUIPShiftReduceGotoTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPShiftReduceGotoTable.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceGotoTable.m; sourceTree = "<group>"; };
+		86AFD73DFBCA1E823A22610AC8AE64A4 /* NUIPRecoveryAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPRecoveryAction.h; path = "NUIParse/Parsers/Error Recovery/NUIPRecoveryAction.h"; sourceTree = "<group>"; };
+		871AFD5B3A158C81DCBE6E36F05D430F /* Route.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Route.NUI.nss; path = NUI/Themes/Route.NUI.nss; sourceTree = "<group>"; };
+		8743408D877358E59C39EDFEB5D4A080 /* NUIDeclaration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIDeclaration.m; path = NUI/Core/Parser/NUIDeclaration.m; sourceTree = "<group>"; };
+		88A894FB379ABF66A117F0CD191CD553 /* NUISegmentedControlRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISegmentedControlRenderer.m; path = NUI/Core/Renderers/NUISegmentedControlRenderer.m; sourceTree = "<group>"; };
+		895FB011428F1E9FAB52C7A75C5E4C54 /* NUISwitchRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISwitchRenderer.m; path = NUI/Core/Renderers/NUISwitchRenderer.m; sourceTree = "<group>"; };
+		8D3ED4B49D30A6E5C7AF25C0E27DBE41 /* NUIPRHSItem+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NUIPRHSItem+Private.h"; path = "NUIParse/Grammar/NUIPRHSItem+Private.h"; sourceTree = "<group>"; };
+		8FA629C71FB8852AA9A95FE2EB68F344 /* NUIPQuotedRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPQuotedRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPQuotedRecogniser.m"; sourceTree = "<group>"; };
+		900A8B8402137DE31F4A5A41BEE421E4 /* NUIPRecoveryAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPRecoveryAction.m; path = "NUIParse/Parsers/Error Recovery/NUIPRecoveryAction.m"; sourceTree = "<group>"; };
+		907C766611A14ADF8CB11D662A0DFBE3 /* NUIVariableToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIVariableToken.m; path = NUI/Core/Parser/NUIVariableToken.m; sourceTree = "<group>"; };
+		914763E20565F8D164FCA798EE05AD93 /* NUIPShiftReduceState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPShiftReduceState.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceState.m; sourceTree = "<group>"; };
+		9239F7991EC330363594ABC7FDE1CDC4 /* NUIPTokeniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPTokeniser.h; path = NUIParse/Tokenisation/NUIPTokeniser.h; sourceTree = "<group>"; };
+		92EB304DF8C56E805CA5C964766067FF /* NUIMediaOptionSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIMediaOptionSet.m; path = NUI/Core/Parser/NUIMediaOptionSet.m; sourceTree = "<group>"; };
+		9309229664475569BBD7CC34FF510C04 /* NSArray+NUIFunctional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+NUIFunctional.h"; path = "NUIParse/NSArray+NUIFunctional.h"; sourceTree = "<group>"; };
+		943E4D9DED91F5D4EE659ABE0E887B59 /* NUITabBarRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITabBarRenderer.m; path = NUI/Core/Renderers/NUITabBarRenderer.m; sourceTree = "<group>"; };
+		9474C3485EB18B61F8F3926B16638EA1 /* NUITokeniserDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITokeniserDelegate.m; path = NUI/Core/Parser/NUITokeniserDelegate.m; sourceTree = "<group>"; };
+		96DF3E37057662A7BC2FD91B6CAECD6C /* UISearchBar+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+NUI.m"; path = "NUI/UI/UISearchBar+NUI.m"; sourceTree = "<group>"; };
+		971F3D29D03E6D082C510838E5A8108D /* NUIGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIGraphics.h; path = NUI/Core/NUIGraphics.h; sourceTree = "<group>"; };
+		98192D3946C76FC64ABD5272F92342E7 /* UISegmentedControl+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+NUI.h"; path = "NUI/UI/UISegmentedControl+NUI.h"; sourceTree = "<group>"; };
+		98334EDA2F87D4328AF94951378099B5 /* NUIPSLRParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPSLRParser.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPSLRParser.h; sourceTree = "<group>"; };
+		995C7B61211D3E1F324992DAC9BD910C /* Round.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Round.NUI.nss; path = NUI/Themes/Round.NUI.nss; sourceTree = "<group>"; };
+		9A91D267C8A9FC3D763F76297ADDECE7 /* NUIParse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUIParse.xcconfig; sourceTree = "<group>"; };
+		9CC3480714E633488575588C4AD6489A /* NUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUI.xcconfig; sourceTree = "<group>"; };
+		9EDCD2A55E9921B880C65CB0E9190AE8 /* NUIPShiftReduceAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPShiftReduceAction.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceAction.h; sourceTree = "<group>"; };
+		9F6707D15DBCFAD580238CBED80F17C4 /* NUIPRHSItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPRHSItem.m; path = NUIParse/Grammar/NUIPRHSItem.m; sourceTree = "<group>"; };
+		A12A109AD3705914ED5DFB6D1F390C83 /* NUIPRHSItemResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPRHSItemResult.m; path = NUIParse/Grammar/NUIPRHSItemResult.m; sourceTree = "<group>"; };
+		A30E70688DA658024E1557C582F7A1BB /* NUITableViewRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITableViewRenderer.m; path = NUI/Core/Renderers/NUITableViewRenderer.m; sourceTree = "<group>"; };
+		A33571E2E5241A444D44D5C4831CC479 /* NUIPTokenRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPTokenRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPTokenRecogniser.h"; sourceTree = "<group>"; };
+		A4199FB1A4B6F23C867E8C876A8B8E27 /* NUIPEOFToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPEOFToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPEOFToken.m"; sourceTree = "<group>"; };
+		A4750835F526063FBEC608B114767C79 /* NUIPShiftAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPShiftAction.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftAction.h; sourceTree = "<group>"; };
+		A6AFC8F7FDE8B0887533F6464E89C8BC /* UIView+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NUI.m"; path = "NUI/UI/UIView+NUI.m"; sourceTree = "<group>"; };
+		A7F72F8910BBB8B4DA013C35076E70A2 /* UITabBarItem+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+NUI.m"; path = "NUI/UI/UITabBarItem+NUI.m"; sourceTree = "<group>"; };
+		A8B9301A82390E2D0F49982403E95D73 /* UIBarButtonItem+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+NUI.m"; path = "NUI/UI/UIBarButtonItem+NUI.m"; sourceTree = "<group>"; };
+		A8E5FFF7D7FFC0CBB1C6992B81920DE2 /* NUISettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISettings.h; path = NUI/Core/NUISettings.h; sourceTree = "<group>"; };
+		AAD3B1C6EE532565E4B028D7281B18CA /* UISlider+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISlider+NUI.m"; path = "NUI/UI/UISlider+NUI.m"; sourceTree = "<group>"; };
+		AB36325B1EB1979FA2E62488E10F6F37 /* NUIPGrammarInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPGrammarInternal.h; path = NUIParse/Grammar/NUIPGrammarInternal.h; sourceTree = "<group>"; };
+		AB448C109A48FB9435E7DC0BFD5C98A6 /* NUIPWhiteSpaceToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPWhiteSpaceToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPWhiteSpaceToken.h"; sourceTree = "<group>"; };
+		ABD0A2CF60AAA5A337ED402D124F398D /* NUIPItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPItem.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPItem.h; sourceTree = "<group>"; };
+		AF553B74C44B76AE932688CF35BBD5BE /* NUIPRegexpRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPRegexpRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPRegexpRecogniser.h"; sourceTree = "<group>"; };
+		B1047F8605A0D9C88CE99DF9470E167A /* UIWindow+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+NUI.m"; path = "NUI/UI/UIWindow+NUI.m"; sourceTree = "<group>"; };
+		B279C995D142BDAAA4AF10EBFD8B6E11 /* NUIGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIGraphics.m; path = NUI/Core/NUIGraphics.m; sourceTree = "<group>"; };
+		B27BBCB1EB4ABCE05EA89DDA913DEC29 /* NUIStyleSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIStyleSheet.m; path = NUI/Core/Parser/NUIStyleSheet.m; sourceTree = "<group>"; };
+		B5CA96E4D646EC9D261412A6B8F441A1 /* NUIParserDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIParserDelegate.m; path = NUI/Core/Parser/NUIParserDelegate.m; sourceTree = "<group>"; };
+		B61CD5600EB09F9FFF4EE874B31FEC1B /* NUIControlRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIControlRenderer.m; path = NUI/Core/Renderers/NUIControlRenderer.m; sourceTree = "<group>"; };
+		B6E03090BAF4937D94D2F5ABAAC9377B /* UITabBarItem+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+NUI.h"; path = "NUI/UI/UITabBarItem+NUI.h"; sourceTree = "<group>"; };
+		B7FE1D02F1645851F0071492D3C48A9E /* NUIPTokeniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPTokeniser.m; path = NUIParse/Tokenisation/NUIPTokeniser.m; sourceTree = "<group>"; };
+		B8940F8878B7BD4C08D361E2485BE8D2 /* NUIParserDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIParserDelegate.h; path = NUI/Core/Parser/NUIParserDelegate.h; sourceTree = "<group>"; };
+		B8CA97526E805D6002B7DBD191C5B10A /* NUIProgressViewRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIProgressViewRenderer.m; path = NUI/Core/Renderers/NUIProgressViewRenderer.m; sourceTree = "<group>"; };
+		B926315DD37AB7C0C212F7C9753D2221 /* NUIStyleSheetItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIStyleSheetItem.h; path = NUI/Core/Parser/NUIStyleSheetItem.h; sourceTree = "<group>"; };
+		B9651A585CB5C3A2024669FEBE38BA91 /* NUIWindowRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIWindowRenderer.h; path = NUI/Core/Renderers/NUIWindowRenderer.h; sourceTree = "<group>"; };
+		B9B1A439E741E003851F765CF6085C66 /* NUIPNumberToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPNumberToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPNumberToken.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA8C3D615D5742BC94B80ED2357C9FF0 /* NUIConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIConverter.m; path = NUI/Core/NUIConverter.m; sourceTree = "<group>"; };
+		BE2842BFAA250CBE5E128B0E1147C0D5 /* Pods-NUITestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NUITestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5279E68425985DD8DAE5AC33757F98 /* NUIPIdentifierRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPIdentifierRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPIdentifierRecogniser.m"; sourceTree = "<group>"; };
+		BFF37C39B9BA030AE415F23C3808AAC5 /* UINavigationItem+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+NUI.h"; path = "NUI/UI/UINavigationItem+NUI.h"; sourceTree = "<group>"; };
+		C007FE81F47ABAE67206DB67BABC4C92 /* UISegmentedControl+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+NUI.m"; path = "NUI/UI/UISegmentedControl+NUI.m"; sourceTree = "<group>"; };
+		C090C49D62E9C7939778C235D17087A5 /* NUIBarButtonItemRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIBarButtonItemRenderer.h; path = NUI/Core/Renderers/NUIBarButtonItemRenderer.h; sourceTree = "<group>"; };
+		C15F6B129BA1347C5D36E132B27EAEBD /* NUIPNumberToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPNumberToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPNumberToken.h"; sourceTree = "<group>"; };
+		C3586AD81A9AFE0FB533D87337505B1F /* UITextView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+NUI.h"; path = "NUI/UI/UITextView+NUI.h"; sourceTree = "<group>"; };
+		C48101EC3852D244D371C125D5B760F7 /* UIProgressView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+NUI.h"; path = "NUI/UI/UIProgressView+NUI.h"; sourceTree = "<group>"; };
+		C52AFA833A25D197F910AAA19FE03E62 /* NUISliderRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISliderRenderer.h; path = NUI/Core/Renderers/NUISliderRenderer.h; sourceTree = "<group>"; };
+		C6B481AA405DF4D841E0933C6679A8BC /* NUIPShiftAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPShiftAction.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftAction.m; sourceTree = "<group>"; };
+		C7C3600C0B85456DC8DCFE591A73EDEA /* NUIPTokenStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPTokenStream.m; path = NUIParse/Tokenisation/NUIPTokenStream.m; sourceTree = "<group>"; };
+		C87D8CD5E4F0B782F53F208FC2185576 /* SkyBlue.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SkyBlue.NUI.nss; path = NUI/Themes/SkyBlue.NUI.nss; sourceTree = "<group>"; };
+		C8C3C207C06F707FE63AAAF0938F968E /* NUIStyleParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIStyleParser.h; path = NUI/Core/NUIStyleParser.h; sourceTree = "<group>"; };
+		CA9A50D694FAF01ECF6E3326100ADCE2 /* UIButton+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+NUI.h"; path = "NUI/UI/UIButton+NUI.h"; sourceTree = "<group>"; };
+		CD49F6102A7A45ECBB1290FA1DA60162 /* UIControl+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+NUI.h"; path = "NUI/UI/UIControl+NUI.h"; sourceTree = "<group>"; };
+		CDBA963F5C94650321A8B0C778E1ACF6 /* NUIPSyntaxTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPSyntaxTree.m; path = "NUIParse/Syntax Tree/NUIPSyntaxTree.m"; sourceTree = "<group>"; };
+		CDCEE6B11A8EDDAB9980E9A4F6F8AD15 /* UISlider+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+NUI.h"; path = "NUI/UI/UISlider+NUI.h"; sourceTree = "<group>"; };
+		CE7D5B176D6CB49732A87D03568879AC /* UITabBar+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+NUI.m"; path = "NUI/UI/UITabBar+NUI.m"; sourceTree = "<group>"; };
+		D0840FDBA2CAE6173F06B2D793FD284C /* NUITabBarItemRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITabBarItemRenderer.h; path = NUI/Core/Renderers/NUITabBarItemRenderer.h; sourceTree = "<group>"; };
+		D1C242FA5206A875B8E6681E916CB9CF /* NUIPSLRParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPSLRParser.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPSLRParser.m; sourceTree = "<group>"; };
+		D3C70DEB4904AA29B929A0F546DAFEF3 /* NUIPLR1Parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPLR1Parser.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPLR1Parser.h; sourceTree = "<group>"; };
+		D4B3795A81BE8890BC0B2A3030C9D5BD /* NUIPLR1Parser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPLR1Parser.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPLR1Parser.m; sourceTree = "<group>"; };
+		D67E0095D8BEC48761B4C58692AFB355 /* NUIPShiftReduceActionTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPShiftReduceActionTable.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceActionTable.m; sourceTree = "<group>"; };
+		D79DD35522E7C2638A02E97B78890DC7 /* NUITabBarItemRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITabBarItemRenderer.m; path = NUI/Core/Renderers/NUITabBarItemRenderer.m; sourceTree = "<group>"; };
+		D8DA2A29E9EDF317F935F59266DA1E24 /* NUISwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISwizzler.h; path = NUI/Core/NUISwizzler.h; sourceTree = "<group>"; };
+		D8FED249CE5A0F5ACB366AA27CDC8019 /* NUIAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIAppearance.h; path = NUI/Core/NUIAppearance.h; sourceTree = "<group>"; };
+		DA31D94DF6580124C715BE52901D7680 /* NUIParse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NUIParse-dummy.m"; sourceTree = "<group>"; };
+		DCB18ED36CF81B7F97728AB46E6B73F3 /* Pods-NUITestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NUITestApp-frameworks.sh"; sourceTree = "<group>"; };
+		DE02CC81C129C22CB852AA62BA236570 /* NUIRuleSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIRuleSet.h; path = NUI/Core/Parser/NUIRuleSet.h; sourceTree = "<group>"; };
+		DFBA2E6F60E81D6CB2D612FA11F44EBB /* NUIBarButtonItemRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIBarButtonItemRenderer.m; path = NUI/Core/Renderers/NUIBarButtonItemRenderer.m; sourceTree = "<group>"; };
+		E15FCB78D0029CBE399A48DAF86A96D5 /* Pods-NUITestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NUITestApp.release.xcconfig"; sourceTree = "<group>"; };
+		E2BA3ADED6B423A8E9D6226D0559D20C /* NUIPShiftReduceGotoTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPShiftReduceGotoTable.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceGotoTable.h; sourceTree = "<group>"; };
+		E356689F0FAB5022331ADEE9FFA32876 /* NUITableViewCellRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITableViewCellRenderer.m; path = NUI/Core/Renderers/NUITableViewCellRenderer.m; sourceTree = "<group>"; };
+		E52BD71488590BC3306871E908DB9599 /* NUILabelRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUILabelRenderer.h; path = NUI/Core/Renderers/NUILabelRenderer.h; sourceTree = "<group>"; };
+		E6395DB32BD6E1A38A60DF7693C8657A /* Pods-NUITestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NUITestApp-dummy.m"; sourceTree = "<group>"; };
+		E6BA6C0556768B9FE3291267A2615035 /* NUIPGrammarPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPGrammarPrivate.h; path = NUIParse/Grammar/NUIPGrammarPrivate.h; sourceTree = "<group>"; };
+		E7774A17EECD9DA1FBF0C00E06E2D03E /* NUIPErrorToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPErrorToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPErrorToken.m"; sourceTree = "<group>"; };
+		E78BD1A54B6A9E39A3BEC48B9AE7A93D /* NUINavigationBarRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUINavigationBarRenderer.m; path = NUI/Core/Renderers/NUINavigationBarRenderer.m; sourceTree = "<group>"; };
+		E7D9DAEF2E2A515F2905154379002274 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E884F36782A7C66555BE307FF6ED63ED /* UITableView+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+NUI.m"; path = "NUI/UI/UITableView+NUI.m"; sourceTree = "<group>"; };
+		EB2BEFA63ABCB4F637B697CEF1DE1416 /* UISearchBar+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+NUI.h"; path = "NUI/UI/UISearchBar+NUI.h"; sourceTree = "<group>"; };
+		EC2666E0719A67C4C0CCA07DC8413C16 /* NUIPWhiteSpaceRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPWhiteSpaceRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPWhiteSpaceRecogniser.m"; sourceTree = "<group>"; };
+		EC839709296A186F8EB116D90D685F5C /* UIProgressView+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+NUI.m"; path = "NUI/UI/UIProgressView+NUI.m"; sourceTree = "<group>"; };
+		ECFD0BA78119E32E3700E1DB5909A29E /* UILabel+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+NUI.h"; path = "NUI/UI/UILabel+NUI.h"; sourceTree = "<group>"; };
+		EDC4789ACDBCC19F738CD33F77892A0B /* NUIRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIRenderer.m; path = NUI/Core/NUIRenderer.m; sourceTree = "<group>"; };
+		EE495FB17371C1AFF2A85708BE1B9D5C /* UILabel+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+NUI.m"; path = "NUI/UI/UILabel+NUI.m"; sourceTree = "<group>"; };
+		EFDD291C823BC73766D92CDBFE96DADF /* NUISelectorSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISelectorSet.m; path = NUI/Core/Parser/NUISelectorSet.m; sourceTree = "<group>"; };
+		F0ACB25F6E5ECF86743BC745A927C100 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F11BE48CBEB9A53BA7B2EC5D2D095886 /* NUIStyleSheetItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIStyleSheetItem.m; path = NUI/Core/Parser/NUIStyleSheetItem.m; sourceTree = "<group>"; };
+		F265C23E4A2DCEDA894E62E111801AD8 /* UITextField+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+NUI.m"; path = "NUI/UI/UITextField+NUI.m"; sourceTree = "<group>"; };
+		F32364209FEB445C4E2567F988E6CB8F /* Googolplex.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Googolplex.NUI.nss; path = NUI/Themes/Googolplex.NUI.nss; sourceTree = "<group>"; };
+		F3B7BEC31925747DFAB1F1DAF62F8B93 /* NUIPQuotedToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPQuotedToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPQuotedToken.m"; sourceTree = "<group>"; };
+		F3BD81769E9B1E5307CC561A1EECF1F3 /* NUIFileMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIFileMonitor.h; path = NUI/Core/NUIFileMonitor.h; sourceTree = "<group>"; };
+		F79FEF75EBC9AA7608F5EBCA7F0AD8A7 /* NUIMediaOptionSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIMediaOptionSet.h; path = NUI/Core/Parser/NUIMediaOptionSet.h; sourceTree = "<group>"; };
+		F7CE90D7414670F405A16418382FD54E /* NUIStyleParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIStyleParser.m; path = NUI/Core/NUIStyleParser.m; sourceTree = "<group>"; };
+		F8BDBA59B1AF015A93423B52BB45D23E /* NUIPKeywordRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPKeywordRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPKeywordRecogniser.h"; sourceTree = "<group>"; };
+		FAFC9E2C243A199E5DBDE2822A9D6B04 /* NUITableViewRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITableViewRenderer.h; path = NUI/Core/Renderers/NUITableViewRenderer.h; sourceTree = "<group>"; };
+		FB3D8A9BD1AFF8A72C5CF55557AEA024 /* Pods-NUITestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NUITestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC699B661721A7C35117A3074D1CB880 /* NUIAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIAppearance.m; path = NUI/Core/NUIAppearance.m; sourceTree = "<group>"; };
+		FD0D6623EBEF9CF0A3B796EC4BA7D3BA /* NUIButtonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIButtonRenderer.h; path = NUI/Core/Renderers/NUIButtonRenderer.h; sourceTree = "<group>"; };
+		FE971A39B4D630B34149B0EFE7B50BF2 /* NUIPErrorToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPErrorToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPErrorToken.h"; sourceTree = "<group>"; };
+		FF019F49EE8AA52F833BA7FC1B476AC9 /* NUIUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIUtilities.h; path = NUI/Core/NUIUtilities.h; sourceTree = "<group>"; };
+		FFAE8F4370318B0516BBEB53FC10D235 /* Pods-NUITestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NUITestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFDB265CE32DEEA98745B55E1A40A626 /* NUITextViewRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITextViewRenderer.h; path = NUI/Core/Renderers/NUITextViewRenderer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5103FA8C00CA49CA9F02C9DF39CB7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DA178108031AC3AF0C32BD5BFCAF99 /* CoreGraphics.framework in Frameworks */,
+				82A1DFC2955F7B7790738A37478F3041 /* CoreImage.framework in Frameworks */,
+				53DC7B6923620D94ADEB2443786FD554 /* Foundation.framework in Frameworks */,
+				66AD674EFC6972F31A35D75C01C9860B /* QuartzCore.framework in Frameworks */,
+				EF351065FE3A00BE5E6633045D067B34 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD1AF06722B6BD1343C55316B3E8758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A72202996CD65A73A946A31A89DEB1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5D6A6F7FE69DAC25C78175F32E7297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0165149CC837EA90ABC0F46DFCA3146D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E4AF579D26B3B4DF3533378856F7F3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC3480714E633488575588C4AD6489A /* NUI.xcconfig */,
+				22261A5D62436E8D77762AADFB0E6E21 /* NUI-dummy.m */,
+				651AEA31DFDF1845DB614080E0B52210 /* NUI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NUI";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372C7D637FB4B74C2562DEF0FE48A53E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2229DB592CD464AF8E05C69862E211C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00A3D7D0E9D3258540913211A65E6EA0 /* Blue.NUI.nss */,
+				2370B5AF8B297F9504506216612104DE /* Default.NUI.nss */,
+				F32364209FEB445C4E2567F988E6CB8F /* Googolplex.NUI.nss */,
+				18C2FE7D7E61F026676D5E71424CC644 /* NUIStyle.nss */,
+				7037DCB1785583E0AC57359EAED1C6D9 /* NUIViewBackground.png */,
+				995C7B61211D3E1F324992DAC9BD910C /* Round.NUI.nss */,
+				871AFD5B3A158C81DCBE6E36F05D430F /* Route.NUI.nss */,
+				C87D8CD5E4F0B782F53F208FC2185576 /* SkyBlue.NUI.nss */,
+				7206C7D1FEE2AD5710278F8ACF77F1C2 /* Switchboard.NUI.nss */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		372C7D637FB4B74C2562DEF0FE48A53E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BB91C7AEAA63AD934928E5BA139F559 /* CoreGraphics.framework */,
+				27A067CC7E7FB3BD44F7FEB49A16C4CC /* CoreImage.framework */,
+				E7D9DAEF2E2A515F2905154379002274 /* Foundation.framework */,
+				06ED2C1DA69D3B8EADA4EA1029D07C0B /* QuartzCore.framework */,
+				F0ACB25F6E5ECF86743BC745A927C100 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		53C55A70C3CCAB1BB9621EC71DDB1B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6039B33FFBFE2647C12DD2E90A4761DE /* libNUI.a */,
+				595834ABC0F57FE688BE26EAF0D54EFA /* libNUIParse.a */,
+				75E4E14FD618CEEE4168FA5266B3B11B /* libPods-NUITestApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E50DB89FBA99A2EEB4AB2640FF57C50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA6EF8FF2C44ED67309D0F52265E443D /* NUI */,
+				B0831153374831B6B2FA00DBFCF1BA3B /* NUIParse */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70618E76FEEDCC377558F00B66F0D0E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75E9A4FBB77337BA0098E934D80FAB4 /* Pods-NUITestApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				6E50DB89FBA99A2EEB4AB2640FF57C50 /* Pods */,
+				53C55A70C3CCAB1BB9621EC71DDB1B09 /* Products */,
+				70618E76FEEDCC377558F00B66F0D0E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6EF8FF2C44ED67309D0F52265E443D /* NUI */ = {
+			isa = PBXGroup;
+			children = (
+				D8FED249CE5A0F5ACB366AA27CDC8019 /* NUIAppearance.h */,
+				FC699B661721A7C35117A3074D1CB880 /* NUIAppearance.m */,
+				C090C49D62E9C7939778C235D17087A5 /* NUIBarButtonItemRenderer.h */,
+				DFBA2E6F60E81D6CB2D612FA11F44EBB /* NUIBarButtonItemRenderer.m */,
+				FD0D6623EBEF9CF0A3B796EC4BA7D3BA /* NUIButtonRenderer.h */,
+				125ED712072262FEADF5513C86271C2C /* NUIButtonRenderer.m */,
+				2B0CDC4691399DA764B95BC992278EB2 /* NUIConstants.h */,
+				6FE19E94D34520036157937003172005 /* NUIControlRenderer.h */,
+				B61CD5600EB09F9FFF4EE874B31FEC1B /* NUIControlRenderer.m */,
+				7A5B282962F81BAFD03608958DBBE615 /* NUIConverter.h */,
+				BA8C3D615D5742BC94B80ED2357C9FF0 /* NUIConverter.m */,
+				1DF93C71227E65CD60D1201DF66B2E87 /* NUIDeclaration.h */,
+				8743408D877358E59C39EDFEB5D4A080 /* NUIDeclaration.m */,
+				3D6E255EFEFB3CEC8237403FC3655720 /* NUIDefinition.h */,
+				485E5E6D4841069E2635CF9477B50555 /* NUIDefinition.m */,
+				F3BD81769E9B1E5307CC561A1EECF1F3 /* NUIFileMonitor.h */,
+				1A30682883F567F38E18FC1EFFEB7DBF /* NUIFileMonitor.m */,
+				971F3D29D03E6D082C510838E5A8108D /* NUIGraphics.h */,
+				B279C995D142BDAAA4AF10EBFD8B6E11 /* NUIGraphics.m */,
+				E52BD71488590BC3306871E908DB9599 /* NUILabelRenderer.h */,
+				11659BCD118FBDF9EF2D878EC43391A0 /* NUILabelRenderer.m */,
+				15235085F95C93F7CEB3068D07F2E50C /* NUIMediaBlock.h */,
+				2E755417A7140612BA40F7F3D72271A5 /* NUIMediaBlock.m */,
+				F79FEF75EBC9AA7608F5EBCA7F0AD8A7 /* NUIMediaOptionSet.h */,
+				92EB304DF8C56E805CA5C964766067FF /* NUIMediaOptionSet.m */,
+				5323E7627DDE9EF508CB2716FD0CE69A /* NUINavigationBarRenderer.h */,
+				E78BD1A54B6A9E39A3BEC48B9AE7A93D /* NUINavigationBarRenderer.m */,
+				4A4DE5FF1FF111D3D1CC0CE8DF0C678A /* NUINavigationItemRenderer.h */,
+				45FB083080F0D35CFB2CB7C71E3267BC /* NUINavigationItemRenderer.m */,
+				B8940F8878B7BD4C08D361E2485BE8D2 /* NUIParserDelegate.h */,
+				B5CA96E4D646EC9D261412A6B8F441A1 /* NUIParserDelegate.m */,
+				26EB65AFA06F033E30CAD83EA3F2B442 /* NUIProgressViewRenderer.h */,
+				B8CA97526E805D6002B7DBD191C5B10A /* NUIProgressViewRenderer.m */,
+				0344A1AA6923E9ACEE633225F61C4005 /* NUIRenderer.h */,
+				EDC4789ACDBCC19F738CD33F77892A0B /* NUIRenderer.m */,
+				DE02CC81C129C22CB852AA62BA236570 /* NUIRuleSet.h */,
+				3912651B184942679A01990F2D31D3CB /* NUIRuleSet.m */,
+				285572786662B830C357EED9257C956E /* NUISearchBarRenderer.h */,
+				211C8A0462FEDC7679F97FBC71F72830 /* NUISearchBarRenderer.m */,
+				4783BEF6D71280E4260F3851755AD377 /* NUISegmentedControlRenderer.h */,
+				88A894FB379ABF66A117F0CD191CD553 /* NUISegmentedControlRenderer.m */,
+				6698D0D1B3382A83E7529B0C084A9406 /* NUISelectorSet.h */,
+				EFDD291C823BC73766D92CDBFE96DADF /* NUISelectorSet.m */,
+				A8E5FFF7D7FFC0CBB1C6992B81920DE2 /* NUISettings.h */,
+				4AEF748A6FC98652493B40B018F2A4AC /* NUISettings.m */,
+				C52AFA833A25D197F910AAA19FE03E62 /* NUISliderRenderer.h */,
+				468980ED3E131145A5B817E12E7EA5A4 /* NUISliderRenderer.m */,
+				C8C3C207C06F707FE63AAAF0938F968E /* NUIStyleParser.h */,
+				F7CE90D7414670F405A16418382FD54E /* NUIStyleParser.m */,
+				086EA5C34C9F9073AB335E14FBE8ABAE /* NUIStyleSheet.h */,
+				B27BBCB1EB4ABCE05EA89DDA913DEC29 /* NUIStyleSheet.m */,
+				B926315DD37AB7C0C212F7C9753D2221 /* NUIStyleSheetItem.h */,
+				F11BE48CBEB9A53BA7B2EC5D2D095886 /* NUIStyleSheetItem.m */,
+				353DD4008E21E8854CEE4105136C47F9 /* NUISwitchRenderer.h */,
+				895FB011428F1E9FAB52C7A75C5E4C54 /* NUISwitchRenderer.m */,
+				D8DA2A29E9EDF317F935F59266DA1E24 /* NUISwizzler.h */,
+				39ABD30650CE0AE1562F75F8DA5D3819 /* NUISwizzler.m */,
+				D0840FDBA2CAE6173F06B2D793FD284C /* NUITabBarItemRenderer.h */,
+				D79DD35522E7C2638A02E97B78890DC7 /* NUITabBarItemRenderer.m */,
+				2435099B916B397A7D258F41D85BDE20 /* NUITabBarRenderer.h */,
+				943E4D9DED91F5D4EE659ABE0E887B59 /* NUITabBarRenderer.m */,
+				6A46DB1AD11DC34B2C07F575B7D6C1A0 /* NUITableViewCellRenderer.h */,
+				E356689F0FAB5022331ADEE9FFA32876 /* NUITableViewCellRenderer.m */,
+				FAFC9E2C243A199E5DBDE2822A9D6B04 /* NUITableViewRenderer.h */,
+				A30E70688DA658024E1557C582F7A1BB /* NUITableViewRenderer.m */,
+				3F579900F371A6790F7099881D20E11B /* NUITextFieldRenderer.h */,
+				4192AA01F599621AE01A21C3A83CB147 /* NUITextFieldRenderer.m */,
+				FFDB265CE32DEEA98745B55E1A40A626 /* NUITextViewRenderer.h */,
+				480DE590FCC7AA2C35D6410B9B7B755B /* NUITextViewRenderer.m */,
+				3893AC1534D60FBDAB7B2A80148E4B3F /* NUITokeniserDelegate.h */,
+				9474C3485EB18B61F8F3926B16638EA1 /* NUITokeniserDelegate.m */,
+				7F95BD38FDEF024B736EFDF0CE4A85A6 /* NUIToolbarRenderer.h */,
+				29FC9A5306F8614C0ABF64FB5B2065F8 /* NUIToolbarRenderer.m */,
+				FF019F49EE8AA52F833BA7FC1B476AC9 /* NUIUtilities.h */,
+				0E019B0E132B585E4055EECB86B9E2F1 /* NUIUtilities.m */,
+				32172D0D6D08ADF280F0EEA69F840AA3 /* NUIVariableToken.h */,
+				907C766611A14ADF8CB11D662A0DFBE3 /* NUIVariableToken.m */,
+				688664F33111F4E0FDF43978E7BD3D24 /* NUIViewRenderer.h */,
+				61B43B10081474356FFCA5BF60AAEA56 /* NUIViewRenderer.m */,
+				B9651A585CB5C3A2024669FEBE38BA91 /* NUIWindowRenderer.h */,
+				803E3D13C94375D2536A6595CCE2CCCE /* NUIWindowRenderer.m */,
+				340A8B0698B5EC44402DF410B22EA2A9 /* UIBarButtonItem+NUI.h */,
+				A8B9301A82390E2D0F49982403E95D73 /* UIBarButtonItem+NUI.m */,
+				CA9A50D694FAF01ECF6E3326100ADCE2 /* UIButton+NUI.h */,
+				2CE1CDAE11F039CD3A85CC83A8F17E79 /* UIButton+NUI.m */,
+				CD49F6102A7A45ECBB1290FA1DA60162 /* UIControl+NUI.h */,
+				5D05C87616D2D5D20DA59C3A35191494 /* UIControl+NUI.m */,
+				ECFD0BA78119E32E3700E1DB5909A29E /* UILabel+NUI.h */,
+				EE495FB17371C1AFF2A85708BE1B9D5C /* UILabel+NUI.m */,
+				13F8D15E9C50092B8DB6C9BB2AB55309 /* UINavigationBar+NUI.h */,
+				0213E8EF0D9FFDE4DEA570064B4560ED /* UINavigationBar+NUI.m */,
+				BFF37C39B9BA030AE415F23C3808AAC5 /* UINavigationItem+NUI.h */,
+				2CF516B21B56D022718B2719103D51E2 /* UINavigationItem+NUI.m */,
+				C48101EC3852D244D371C125D5B760F7 /* UIProgressView+NUI.h */,
+				EC839709296A186F8EB116D90D685F5C /* UIProgressView+NUI.m */,
+				EB2BEFA63ABCB4F637B697CEF1DE1416 /* UISearchBar+NUI.h */,
+				96DF3E37057662A7BC2FD91B6CAECD6C /* UISearchBar+NUI.m */,
+				98192D3946C76FC64ABD5272F92342E7 /* UISegmentedControl+NUI.h */,
+				C007FE81F47ABAE67206DB67BABC4C92 /* UISegmentedControl+NUI.m */,
+				CDCEE6B11A8EDDAB9980E9A4F6F8AD15 /* UISlider+NUI.h */,
+				AAD3B1C6EE532565E4B028D7281B18CA /* UISlider+NUI.m */,
+				076DB83BF58D2F47D1E58E186F915F11 /* UISwitch+NUI.h */,
+				730C4CB3DFBF60CDB60390E7327F9DBB /* UISwitch+NUI.m */,
+				020808BCF12CA3FCE30A71F5B3DCF110 /* UITabBar+NUI.h */,
+				CE7D5B176D6CB49732A87D03568879AC /* UITabBar+NUI.m */,
+				B6E03090BAF4937D94D2F5ABAAC9377B /* UITabBarItem+NUI.h */,
+				A7F72F8910BBB8B4DA013C35076E70A2 /* UITabBarItem+NUI.m */,
+				68B9AAA0AAF9E55D2DA1AC097B55F0BF /* UITableView+NUI.h */,
+				E884F36782A7C66555BE307FF6ED63ED /* UITableView+NUI.m */,
+				52B2E814A250338F5DC313B8A59629BA /* UITableViewCell+NUI.h */,
+				7B4D62BA52277C53A750E7FEA5F98660 /* UITableViewCell+NUI.m */,
+				7A33774F4E9DB919FFDD0226254A9C91 /* UITextField+NUI.h */,
+				F265C23E4A2DCEDA894E62E111801AD8 /* UITextField+NUI.m */,
+				C3586AD81A9AFE0FB533D87337505B1F /* UITextView+NUI.h */,
+				3295223B1F899A3A860912F2ABEA7A3B /* UITextView+NUI.m */,
+				654299B009BFC9A685826BB9DDA2A9F9 /* UIToolbar+NUI.h */,
+				3B190AB2537C2C628483A7EC6C3E454B /* UIToolbar+NUI.m */,
+				2F3B0CDAF92F0017744807EE966F88F6 /* UIView+NUI.h */,
+				A6AFC8F7FDE8B0887533F6464E89C8BC /* UIView+NUI.m */,
+				022BDDBC6209C47C59F7489D4346DB65 /* UIWindow+NUI.h */,
+				B1047F8605A0D9C88CE99DF9470E167A /* UIWindow+NUI.m */,
+				2229DB592CD464AF8E05C69862E211C6 /* Resources */,
+				1E4AF579D26B3B4DF3533378856F7F3E /* Support Files */,
+			);
+			path = NUI;
+			sourceTree = "<group>";
+		};
+		B0831153374831B6B2FA00DBFCF1BA3B /* NUIParse */ = {
+			isa = PBXGroup;
+			children = (
+				9309229664475569BBD7CC34FF510C04 /* NSArray+NUIFunctional.h */,
+				5261EF350DBB70AF61EA565547E15EEA /* NSArray+NUIFunctional.m */,
+				4C068CA8F6DCCF7BC682D5C60CB69011 /* NSSet+NUIFunctional.h */,
+				1755D7FBCB07EA18BCD004A80D4F7E92 /* NSSet+NUIFunctional.m */,
+				51320F9E9F9BF2FE27CA9950A0FB1CA7 /* NUIParse.h */,
+				44181FA24780B64B6DEF33AEE562F3EE /* NUIPEOFToken.h */,
+				A4199FB1A4B6F23C867E8C876A8B8E27 /* NUIPEOFToken.m */,
+				FE971A39B4D630B34149B0EFE7B50BF2 /* NUIPErrorToken.h */,
+				E7774A17EECD9DA1FBF0C00E06E2D03E /* NUIPErrorToken.m */,
+				44D5B2F95D0E307D45060800C9B18234 /* NUIPGrammar.h */,
+				7CD7349F0F45D4414DE32BCBE4DF2D8C /* NUIPGrammar.m */,
+				AB36325B1EB1979FA2E62488E10F6F37 /* NUIPGrammarInternal.h */,
+				7A66A8798A451B7745D83823EC101AB8 /* NUIPGrammarInternal.m */,
+				E6BA6C0556768B9FE3291267A2615035 /* NUIPGrammarPrivate.h */,
+				72DDC8B13293436C97E12B19320FF970 /* NUIPGrammarPrivate.m */,
+				7DB51899247647A190EE8B2C025A003A /* NUIPGrammarSymbol.h */,
+				2B07C6B07F3F32CC2F7BF24628877DC2 /* NUIPGrammarSymbol.m */,
+				4463F3E1EEFF7C8CC943DF9C06C9B8F8 /* NUIPIdentifierRecogniser.h */,
+				BF5279E68425985DD8DAE5AC33757F98 /* NUIPIdentifierRecogniser.m */,
+				3BBA6528A13D0DCA1F7FA3DE1D77BF39 /* NUIPIdentifierToken.h */,
+				4AFA7389AC8DA4051BF152C4A685AD28 /* NUIPIdentifierToken.m */,
+				ABD0A2CF60AAA5A337ED402D124F398D /* NUIPItem.h */,
+				520C404C30597DCC549FD562FFCE81B5 /* NUIPItem.m */,
+				107CC2477162EAA12F52B1C99EC42F35 /* NUIPJSONParser.h */,
+				4E884810A6AC4D0D24C1193BF6B8CA91 /* NUIPJSONParser.m */,
+				F8BDBA59B1AF015A93423B52BB45D23E /* NUIPKeywordRecogniser.h */,
+				6F7FA36306798C1B3A61A1D4A6BDB47D /* NUIPKeywordRecogniser.m */,
+				00A55CF6134E22A43F7EFA8A994E106E /* NUIPKeywordToken.h */,
+				496BB959F321AC9FD2BF6EEE2C9F3792 /* NUIPKeywordToken.m */,
+				6D7D798304FB1B21E3A88357C25FBFF4 /* NUIPLALR1Parser.h */,
+				809CD6A07D0771240245CBC8F3EC7617 /* NUIPLALR1Parser.m */,
+				2C4ABDDD6FA9E8125888FE56B6A53D7F /* NUIPLR1Item.h */,
+				366D65CBFE2BB609DDB7C61DCF66C16B /* NUIPLR1Item.m */,
+				D3C70DEB4904AA29B929A0F546DAFEF3 /* NUIPLR1Parser.h */,
+				D4B3795A81BE8890BC0B2A3030C9D5BD /* NUIPLR1Parser.m */,
+				1A8AB8C997EEAD1B5C3EE94239BE9011 /* NUIPNumberRecogniser.h */,
+				593CBF75DBD1A8087628EEB37A01E14C /* NUIPNumberRecogniser.m */,
+				C15F6B129BA1347C5D36E132B27EAEBD /* NUIPNumberToken.h */,
+				B9B1A439E741E003851F765CF6085C66 /* NUIPNumberToken.m */,
+				0246A95D9611144808DED2C86D035517 /* NUIPParser.h */,
+				405C1AE2FD1CBBFFE97BC717F4FEE192 /* NUIPParser.m */,
+				37E90DB3C6C42785359D2A9013173802 /* NUIPQuotedRecogniser.h */,
+				8FA629C71FB8852AA9A95FE2EB68F344 /* NUIPQuotedRecogniser.m */,
+				55978281B27C5D3CAFAE2C4AD6A945D5 /* NUIPQuotedToken.h */,
+				F3B7BEC31925747DFAB1F1DAF62F8B93 /* NUIPQuotedToken.m */,
+				86AFD73DFBCA1E823A22610AC8AE64A4 /* NUIPRecoveryAction.h */,
+				900A8B8402137DE31F4A5A41BEE421E4 /* NUIPRecoveryAction.m */,
+				AF553B74C44B76AE932688CF35BBD5BE /* NUIPRegexpRecogniser.h */,
+				224420272992FF110C75F2A0A6BCB8F3 /* NUIPRegexpRecogniser.m */,
+				73895E276BD635B87E9229A6E39238EA /* NUIPRHSItem.h */,
+				9F6707D15DBCFAD580238CBED80F17C4 /* NUIPRHSItem.m */,
+				8D3ED4B49D30A6E5C7AF25C0E27DBE41 /* NUIPRHSItem+Private.h */,
+				5C592EB3E0D4DE88C05C9B6B92297C74 /* NUIPRHSItemResult.h */,
+				A12A109AD3705914ED5DFB6D1F390C83 /* NUIPRHSItemResult.m */,
+				68DCBD32E4B634A33C69549AAC5B2BA7 /* NUIPRule.h */,
+				567ABE31DC4D20C76D8D4A778E090906 /* NUIPRule.m */,
+				6FA5E03BAD6910E0C4CDD002D3B1106E /* NUIPRule+Internal.h */,
+				A4750835F526063FBEC608B114767C79 /* NUIPShiftAction.h */,
+				C6B481AA405DF4D841E0933C6679A8BC /* NUIPShiftAction.m */,
+				9EDCD2A55E9921B880C65CB0E9190AE8 /* NUIPShiftReduceAction.h */,
+				689F2B672001FF40A89C78C0CD3AEA6C /* NUIPShiftReduceAction.m */,
+				4DE202027ABB0333F1F0B7275829692C /* NUIPShiftReduceActionTable.h */,
+				D67E0095D8BEC48761B4C58692AFB355 /* NUIPShiftReduceActionTable.m */,
+				E2BA3ADED6B423A8E9D6226D0559D20C /* NUIPShiftReduceGotoTable.h */,
+				84323E8F8C321E434DD26025108C3BF9 /* NUIPShiftReduceGotoTable.m */,
+				311F7CEE8C0FCF0B04AF86286612C078 /* NUIPShiftReduceParser.h */,
+				1D4DE06639D29766FBA1DEFB19EFB54D /* NUIPShiftReduceParser.m */,
+				5B66987D7E561AF321C3B4EF2F9A1E76 /* NUIPShiftReduceParserProtectedMethods.h */,
+				2263861D850F0546250F1D7E123B6713 /* NUIPShiftReduceState.h */,
+				914763E20565F8D164FCA798EE05AD93 /* NUIPShiftReduceState.m */,
+				98334EDA2F87D4328AF94951378099B5 /* NUIPSLRParser.h */,
+				D1C242FA5206A875B8E6681E916CB9CF /* NUIPSLRParser.m */,
+				670128A25D0671A8C6A57D26BE22DF96 /* NUIPSyntaxTree.h */,
+				CDBA963F5C94650321A8B0C778E1ACF6 /* NUIPSyntaxTree.m */,
+				6303B47537888EB07779427BAABFFBF2 /* NUIPToken.h */,
+				791318EFA7B6C66193A2DEE862F21DEB /* NUIPToken.m */,
+				9239F7991EC330363594ABC7FDE1CDC4 /* NUIPTokeniser.h */,
+				B7FE1D02F1645851F0071492D3C48A9E /* NUIPTokeniser.m */,
+				A33571E2E5241A444D44D5C4831CC479 /* NUIPTokenRecogniser.h */,
+				3874A1DA84615353FA2F9B8F2854D674 /* NUIPTokenStream.h */,
+				C7C3600C0B85456DC8DCFE591A73EDEA /* NUIPTokenStream.m */,
+				5BCAAF456BC8A1A6C42CA409A348B960 /* NUIPWhiteSpaceRecogniser.h */,
+				EC2666E0719A67C4C0CCA07DC8413C16 /* NUIPWhiteSpaceRecogniser.m */,
+				AB448C109A48FB9435E7DC0BFD5C98A6 /* NUIPWhiteSpaceToken.h */,
+				4240E6F3CFDE50516D588B19A8F919B1 /* NUIPWhiteSpaceToken.m */,
+				D742789AE8108DB9DBE778676FF8A367 /* Support Files */,
+			);
+			path = NUIParse;
+			sourceTree = "<group>";
+		};
+		D742789AE8108DB9DBE778676FF8A367 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A91D267C8A9FC3D763F76297ADDECE7 /* NUIParse.xcconfig */,
+				DA31D94DF6580124C715BE52901D7680 /* NUIParse-dummy.m */,
+				3302D36E4058D16DC0928CBDA1CB2AA5 /* NUIParse-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NUIParse";
+			sourceTree = "<group>";
+		};
+		E75E9A4FBB77337BA0098E934D80FAB4 /* Pods-NUITestApp */ = {
+			isa = PBXGroup;
+			children = (
+				FFAE8F4370318B0516BBEB53FC10D235 /* Pods-NUITestApp-acknowledgements.markdown */,
+				FB3D8A9BD1AFF8A72C5CF55557AEA024 /* Pods-NUITestApp-acknowledgements.plist */,
+				E6395DB32BD6E1A38A60DF7693C8657A /* Pods-NUITestApp-dummy.m */,
+				DCB18ED36CF81B7F97728AB46E6B73F3 /* Pods-NUITestApp-frameworks.sh */,
+				7492661E6489217761E181451FF63673 /* Pods-NUITestApp-resources.sh */,
+				BE2842BFAA250CBE5E128B0E1147C0D5 /* Pods-NUITestApp.debug.xcconfig */,
+				E15FCB78D0029CBE399A48DAF86A96D5 /* Pods-NUITestApp.release.xcconfig */,
+			);
+			name = "Pods-NUITestApp";
+			path = "Target Support Files/Pods-NUITestApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E5965D2109A413BFF3992874D1667CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839000FD968278B9E2154367052DE39 /* NSArray+NUIFunctional.h in Headers */,
+				7D053E2151050A48ED4FF8C8CF26C96F /* NSSet+NUIFunctional.h in Headers */,
+				C8D81C9EA5D189E459C7A7E8C73B84D8 /* NUIParse.h in Headers */,
+				BE1706D5C058384B88B98F2399EC09AB /* NUIPEOFToken.h in Headers */,
+				1203358AAA7E79D5301BCD9EE6EABCB6 /* NUIPErrorToken.h in Headers */,
+				2EB4B582B479199327D167B5FDA16C11 /* NUIPGrammar.h in Headers */,
+				DF26FEE8830DA3462E5A0AF977C7FE45 /* NUIPGrammarInternal.h in Headers */,
+				0BF7CA133DA069E82CBE1880A9C5986F /* NUIPGrammarPrivate.h in Headers */,
+				BF237CA72A16DC48E723F3C77CCBFFCF /* NUIPGrammarSymbol.h in Headers */,
+				90A2775F48F0B87079B5DC7166FF731A /* NUIPIdentifierRecogniser.h in Headers */,
+				79B9F5786A216FB01570E8667702C010 /* NUIPIdentifierToken.h in Headers */,
+				8CD5E1E8AF8E068B7075E5C52A606C3C /* NUIPItem.h in Headers */,
+				0B904F054A84DE1E5987140EB95E831D /* NUIPJSONParser.h in Headers */,
+				AEA263974A3AD8B32701C49F7F796ED6 /* NUIPKeywordRecogniser.h in Headers */,
+				392EC80B47A1DBA7485802F2E21A5E1E /* NUIPKeywordToken.h in Headers */,
+				4AE40363FE891D52442C9863C28CB89C /* NUIPLALR1Parser.h in Headers */,
+				7DE918CD1927589A7E83AC1F4E1195BE /* NUIPLR1Item.h in Headers */,
+				A31ADFA207C34F5D6FE65D92F0F9B915 /* NUIPLR1Parser.h in Headers */,
+				A139593E2FD9A9E5FA8F2214A6215E01 /* NUIPNumberRecogniser.h in Headers */,
+				A9828AA28F2AE410127EB40053D173B4 /* NUIPNumberToken.h in Headers */,
+				687BB5F855B7CCBB90DB5689091B00A3 /* NUIPParser.h in Headers */,
+				7D6336423263C0510E7E77AB95037E07 /* NUIPQuotedRecogniser.h in Headers */,
+				355E779E5FA08697BE0856D1CF965A1C /* NUIPQuotedToken.h in Headers */,
+				5252B206F8A569837177F6F110747686 /* NUIPRecoveryAction.h in Headers */,
+				C82C8BA3F3C01235A3BD857476B88D91 /* NUIPRegexpRecogniser.h in Headers */,
+				8185380535CF62B4D13478C789A47817 /* NUIPRHSItem+Private.h in Headers */,
+				F070A0E47E0BD0629FB5C37E19524EF0 /* NUIPRHSItem.h in Headers */,
+				48258E60766325698B3D5506E14E12D1 /* NUIPRHSItemResult.h in Headers */,
+				53752CE0B2D3F305D7169336BA3E368E /* NUIPRule+Internal.h in Headers */,
+				8E261364F6693DDC055F4CB52D4045B6 /* NUIPRule.h in Headers */,
+				040E67DDC8F80B2C75D5482E953C3DFE /* NUIPShiftAction.h in Headers */,
+				08945DF6099A329D58366112B56F3D1F /* NUIPShiftReduceAction.h in Headers */,
+				5A271600D036CAC25CB135BFB3C31FF4 /* NUIPShiftReduceActionTable.h in Headers */,
+				A487DA21D7D47A859FA0D1AAB89EC1D7 /* NUIPShiftReduceGotoTable.h in Headers */,
+				A6308D600DCE2F9FFE8013E764BE8CB9 /* NUIPShiftReduceParser.h in Headers */,
+				304B63A109827D6004DFEF086F42E192 /* NUIPShiftReduceParserProtectedMethods.h in Headers */,
+				9D5F6AAD8B675FD0EFD92C9A988BEE31 /* NUIPShiftReduceState.h in Headers */,
+				C80080DE51786C2B50E993FFC41CDEF4 /* NUIPSLRParser.h in Headers */,
+				E9DFA034BF58680D999C35A46DBD5C07 /* NUIPSyntaxTree.h in Headers */,
+				E41046D4548BEE84E37201B436C9D9CD /* NUIPToken.h in Headers */,
+				98616E8EADE93FEEB11ECCF3580C9CA1 /* NUIPTokeniser.h in Headers */,
+				DF674D29E2703FDA4B5AF05C5D271017 /* NUIPTokenRecogniser.h in Headers */,
+				E47BAA63ABE8BDA04A306B690DD39CCB /* NUIPTokenStream.h in Headers */,
+				D53DF8E4313C919B9EAC283ECEFE475A /* NUIPWhiteSpaceRecogniser.h in Headers */,
+				9AFF0AC800C4FFAAA797109E28F4323E /* NUIPWhiteSpaceToken.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B02751135C426046C100B65EDF7A38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48D50B27267645C9EEF7434B5DA6056 /* NUIAppearance.h in Headers */,
+				44F52E9D1E62B5BC22A562E636629985 /* NUIBarButtonItemRenderer.h in Headers */,
+				5EB23723EB99D29ADD92088CDB6567B6 /* NUIButtonRenderer.h in Headers */,
+				35DB56FD98A4AE20B5BDA40404EC5D07 /* NUIConstants.h in Headers */,
+				2F40A238DE5B7057468E3D5CE5065862 /* NUIControlRenderer.h in Headers */,
+				B4146C5D340DF807D6A8575EAA5EF011 /* NUIConverter.h in Headers */,
+				867150D6ABE4748A66933BF0FE39D8BA /* NUIDeclaration.h in Headers */,
+				C4C0BA3CB155406A98F1151F23666852 /* NUIDefinition.h in Headers */,
+				F6EC4167E9B54ADF44BF5CD72E93CA44 /* NUIFileMonitor.h in Headers */,
+				E436E44D3C0B1E873B4A5C65F0605077 /* NUIGraphics.h in Headers */,
+				8F2C103D0049432BD14D938EF81F3687 /* NUILabelRenderer.h in Headers */,
+				C208FC65DC96BD298B4C5657794DF991 /* NUIMediaBlock.h in Headers */,
+				905755768AECD202A37B895783ABAD69 /* NUIMediaOptionSet.h in Headers */,
+				63956CBB27720F1F8E9ACA8A7F70A993 /* NUINavigationBarRenderer.h in Headers */,
+				11981DD8D6C84E0CD284480BADC9776E /* NUINavigationItemRenderer.h in Headers */,
+				5390F8EE0560539F92C9AC711EC8AECC /* NUIParserDelegate.h in Headers */,
+				4988A51950AF4F5EA08F5DB26F8FF3DF /* NUIProgressViewRenderer.h in Headers */,
+				2B1DE904C3B94E2C85249BE0929416E8 /* NUIRenderer.h in Headers */,
+				655892C167C556C6A3A71B0779D14EA9 /* NUIRuleSet.h in Headers */,
+				8C1CBF5DCCE0D5323C36DBB93EA7C050 /* NUISearchBarRenderer.h in Headers */,
+				951FEFA3FA9A3A1585326CE915957D7B /* NUISegmentedControlRenderer.h in Headers */,
+				08B5AB3F6B58262C1EBAA770ACEA7978 /* NUISelectorSet.h in Headers */,
+				DD074FC837A650787D3867F0CCB33965 /* NUISettings.h in Headers */,
+				C6B86AB1DF56F43FCB9380BCE0AE9340 /* NUISliderRenderer.h in Headers */,
+				BC6DA772A4C1C8A50C079EF8866AD36F /* NUIStyleParser.h in Headers */,
+				F0DF5783F0270CE596AD4FA566D1F66E /* NUIStyleSheet.h in Headers */,
+				37B3814B9988726905543DEA05463232 /* NUIStyleSheetItem.h in Headers */,
+				10008288C5BADCD8D8467224388A5405 /* NUISwitchRenderer.h in Headers */,
+				0A08D75DE20024E970BEF8F5C30AC7E1 /* NUISwizzler.h in Headers */,
+				4C15EC57473DD02809F988C2880F87C5 /* NUITabBarItemRenderer.h in Headers */,
+				8750A75DC570F6CBA5CED9FAFDAB8790 /* NUITabBarRenderer.h in Headers */,
+				355D11D850B12E3B065915CBFF102C46 /* NUITableViewCellRenderer.h in Headers */,
+				B910B1A9571310415D16A31126BF66E3 /* NUITableViewRenderer.h in Headers */,
+				420E8669F6E3B4E5B8CBCC68C53E3416 /* NUITextFieldRenderer.h in Headers */,
+				ADA687C8095413B1E0CBE5F2A295E961 /* NUITextViewRenderer.h in Headers */,
+				F24C632AD53088A46BDE3082F5B29041 /* NUITokeniserDelegate.h in Headers */,
+				CA116A1635B3ED7D2E918913851CB08E /* NUIToolbarRenderer.h in Headers */,
+				C9B2D69152D7A439B0D12A5206F02261 /* NUIUtilities.h in Headers */,
+				5B6F9B140B7A520594DB1C21D61EA4E7 /* NUIVariableToken.h in Headers */,
+				17529476425F6726B30E27F6120205E3 /* NUIViewRenderer.h in Headers */,
+				AF136E4FDC399674DDD26DAE2D49B0A1 /* NUIWindowRenderer.h in Headers */,
+				356ABEFF6DB3B1A0FC95916D2BE268AD /* UIBarButtonItem+NUI.h in Headers */,
+				8E830100C6AE89188CD915BA85F36070 /* UIButton+NUI.h in Headers */,
+				956FD9116BFA96FE92433A777E5CC784 /* UIControl+NUI.h in Headers */,
+				75CE2D82C64B30629F459DE1BCA2A72D /* UILabel+NUI.h in Headers */,
+				6EEB9B98599B4E39B1EABAFA01F09022 /* UINavigationBar+NUI.h in Headers */,
+				7DADF0623C75F35BD4410C7CEA0E4152 /* UINavigationItem+NUI.h in Headers */,
+				AF80DA4D0BAB1D5201FF55C4B8A48CE5 /* UIProgressView+NUI.h in Headers */,
+				0DB70CC2C24BD97D4387ED07354EBFD7 /* UISearchBar+NUI.h in Headers */,
+				E82992619BD4925B4EEB0D700454C952 /* UISegmentedControl+NUI.h in Headers */,
+				B82AB499B55899B32536428544FDB47F /* UISlider+NUI.h in Headers */,
+				1BC2700F5C92A6981FEDFE8C4EBD1708 /* UISwitch+NUI.h in Headers */,
+				6F141B2838AE332448F48A3D88D4776B /* UITabBar+NUI.h in Headers */,
+				BF3B7F26F67E9A5BB642AA5C8D276685 /* UITabBarItem+NUI.h in Headers */,
+				98895004BE466F7BEF65700EC0A59E57 /* UITableView+NUI.h in Headers */,
+				FDB1A33AAE4536B72FAB76941B2C7E48 /* UITableViewCell+NUI.h in Headers */,
+				4E00C87E7B0593931B57CE68B9EFA35B /* UITextField+NUI.h in Headers */,
+				DBE61D4F6A0B6F9EB02048D424F4F9DB /* UITextView+NUI.h in Headers */,
+				62410061B78195A4EEA27CBE3F91A287 /* UIToolbar+NUI.h in Headers */,
+				A4E975A68BCE70EF031C2C10951C7EDE /* UIView+NUI.h in Headers */,
+				95A331AAE9BA807CE747AFF32BB00724 /* UIWindow+NUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		173447216C1E6682F8E459B0823354FC /* Pods-NUITestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F818537586351B8D53133BA2BD6D8ADF /* Build configuration list for PBXNativeTarget "Pods-NUITestApp" */;
+			buildPhases = (
+				64D081AF4BCC4C3C93CE5896F03DBB48 /* Sources */,
+				9BD1AF06722B6BD1343C55316B3E8758 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5EF0A3770C2459C7FEF9CFF6F956357 /* PBXTargetDependency */,
+				0C4EE6D1691DF207B1D9746DB3925D11 /* PBXTargetDependency */,
+			);
+			name = "Pods-NUITestApp";
+			productName = "Pods-NUITestApp";
+			productReference = 75E4E14FD618CEEE4168FA5266B3B11B /* libPods-NUITestApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		25CC8DF9F654DD673EDE4FE4F565DA86 /* NUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92B7F734DFDD23E85C2A166C3CFED19 /* Build configuration list for PBXNativeTarget "NUI" */;
+			buildPhases = (
+				21515D8DD26B6E6E3D4E2F7DBB46B40E /* Sources */,
+				4A5103FA8C00CA49CA9F02C9DF39CB7D /* Frameworks */,
+				77B02751135C426046C100B65EDF7A38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A018CBFA7B90A6CDCCCA08927C3E361 /* PBXTargetDependency */,
+			);
+			name = NUI;
+			productName = NUI;
+			productReference = 6039B33FFBFE2647C12DD2E90A4761DE /* libNUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC5FC82AAA0C0BF556A4ACB312841E1F /* NUIParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6B6D5C0BFB233A22791AD29984DAD5 /* Build configuration list for PBXNativeTarget "NUIParse" */;
+			buildPhases = (
+				58C835250E633E7C44DCEC420B697626 /* Sources */,
+				AA5D6A6F7FE69DAC25C78175F32E7297 /* Frameworks */,
+				5E5965D2109A413BFF3992874D1667CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NUIParse;
+			productName = NUIParse;
+			productReference = 595834ABC0F57FE688BE26EAF0D54EFA /* libNUIParse.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 53C55A70C3CCAB1BB9621EC71DDB1B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25CC8DF9F654DD673EDE4FE4F565DA86 /* NUI */,
+				DC5FC82AAA0C0BF556A4ACB312841E1F /* NUIParse */,
+				173447216C1E6682F8E459B0823354FC /* Pods-NUITestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21515D8DD26B6E6E3D4E2F7DBB46B40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69D01FE3F9E9C96043BDAE6D6525086 /* NUI-dummy.m in Sources */,
+				03D5F27FB8002826EA58CE29317CD698 /* NUIAppearance.m in Sources */,
+				CCFDB78FD31C53F4D6B2E51A644C3262 /* NUIBarButtonItemRenderer.m in Sources */,
+				0CEC8E2A3476CE43D77FBFE9E962E64E /* NUIButtonRenderer.m in Sources */,
+				CC6C26BF581C742C52340C9DFC9A6917 /* NUIControlRenderer.m in Sources */,
+				29D5ACEB58090F97FA4CE189D956D6DC /* NUIConverter.m in Sources */,
+				BC9EE667C4938831704D392DC01EC360 /* NUIDeclaration.m in Sources */,
+				B53BBAA3FDEF36F96C9504115CB8C2C0 /* NUIDefinition.m in Sources */,
+				131C93747EAB6B8E05C8B5DA29C7FBB2 /* NUIFileMonitor.m in Sources */,
+				59CC3B07A1BC8225331E655F09DA0B69 /* NUIGraphics.m in Sources */,
+				C8FB2B0A88DD55F4D1DB10038AB7BA3C /* NUILabelRenderer.m in Sources */,
+				D28CE83C27577D61EFC4F56880131A71 /* NUIMediaBlock.m in Sources */,
+				EF952207271C529527EB4A4C3EDE3417 /* NUIMediaOptionSet.m in Sources */,
+				E4613FC33FA2079F8D90CECBB3E0A903 /* NUINavigationBarRenderer.m in Sources */,
+				2B89441766709940C5EF8662ED1D317C /* NUINavigationItemRenderer.m in Sources */,
+				2C21970848C2EADED53C6E8DB71A3EEC /* NUIParserDelegate.m in Sources */,
+				04AFD26A89BEE72B759D89BEFB477E91 /* NUIProgressViewRenderer.m in Sources */,
+				E5B4A69E30C6DB79DE2CEBA29BEEC090 /* NUIRenderer.m in Sources */,
+				3F286911D955ABF94809EE291E841721 /* NUIRuleSet.m in Sources */,
+				276CC39DBD1BEC75577AC58A3B6686C8 /* NUISearchBarRenderer.m in Sources */,
+				D602DA5EE1997F63EC09201B7E867C83 /* NUISegmentedControlRenderer.m in Sources */,
+				B72DC5F84B2412A5816DA7BB2F54D59C /* NUISelectorSet.m in Sources */,
+				67968710C53BFAD8A16A310ABF1CFADB /* NUISettings.m in Sources */,
+				8F7F743A4BA9AAD2C26E0ECFD805E621 /* NUISliderRenderer.m in Sources */,
+				40D5CF335C0D7CC1DC5A12DB73DC2E46 /* NUIStyleParser.m in Sources */,
+				0634680EFFF4FA8F412A73F9537192A3 /* NUIStyleSheet.m in Sources */,
+				2A9540F1CBE80884817802F31F45F45A /* NUIStyleSheetItem.m in Sources */,
+				FA92C02F3CCD09D953B6FFD0CCABB3B6 /* NUISwitchRenderer.m in Sources */,
+				7E375BC455D305A3DF8D44038D4FA4E4 /* NUISwizzler.m in Sources */,
+				0BEC028C19F3634FA3DE801975313235 /* NUITabBarItemRenderer.m in Sources */,
+				F416EE113FD2A25C5DB3FCC81E2E6C55 /* NUITabBarRenderer.m in Sources */,
+				3DFA5C275263CC903DBEAB468F73FBEF /* NUITableViewCellRenderer.m in Sources */,
+				2500957F9AAB75D867AF22F46932CD51 /* NUITableViewRenderer.m in Sources */,
+				89C7E1E012AFC90D792A53527334FD30 /* NUITextFieldRenderer.m in Sources */,
+				FE18FB81C3A7872DC75624C3FD5D351F /* NUITextViewRenderer.m in Sources */,
+				42285E16BE30C15E5C902A5BD03E7D86 /* NUITokeniserDelegate.m in Sources */,
+				565DB9C64FD6F1B9C7E11DF5C71E3D46 /* NUIToolbarRenderer.m in Sources */,
+				E150C3B1E14C4F1C5491328548285ED4 /* NUIUtilities.m in Sources */,
+				34435533C4A6A238FB10A0244479F025 /* NUIVariableToken.m in Sources */,
+				3E2F3CD3C7121370919F7387388BE645 /* NUIViewRenderer.m in Sources */,
+				EB32F68A0F260EBFE1F0E5C06D4F06E7 /* NUIWindowRenderer.m in Sources */,
+				E84DE45A1479F8AFE8FBBDEC42C7EA43 /* UIBarButtonItem+NUI.m in Sources */,
+				28FC6924B7A342A4AAADFE0B0ABECC83 /* UIButton+NUI.m in Sources */,
+				507EB53F60499299CA808C22FF710B8E /* UIControl+NUI.m in Sources */,
+				579269FD8B03842821FE1580F0E7AF0A /* UILabel+NUI.m in Sources */,
+				618DB92C879217F71C4B28B4CAEE15FD /* UINavigationBar+NUI.m in Sources */,
+				29A53BEB5898DD2010253377A3E9C252 /* UINavigationItem+NUI.m in Sources */,
+				9EA6829D2FD4110DD5FC166A7BEED4D1 /* UIProgressView+NUI.m in Sources */,
+				B2D391264886BAA7DFA53F0978013BCB /* UISearchBar+NUI.m in Sources */,
+				18E50A30E79972739A38D4863D0E2C05 /* UISegmentedControl+NUI.m in Sources */,
+				649B1046EF6BDCC6BEA0AE44C1A1D520 /* UISlider+NUI.m in Sources */,
+				290BCF642FACD49A77A39B4283606FD2 /* UISwitch+NUI.m in Sources */,
+				E356DF67CBAD7030EF2919AECF4AD0C8 /* UITabBar+NUI.m in Sources */,
+				A6A1993A50AC4FA4916CDFC55AE8FDFB /* UITabBarItem+NUI.m in Sources */,
+				543D8ABAB04AA0DA3B78E00F00F16F8B /* UITableView+NUI.m in Sources */,
+				C840D3CCB36B5CB57B0DB85939FAF625 /* UITableViewCell+NUI.m in Sources */,
+				AC8007BFCFB4034D078A3B7CA7C273FF /* UITextField+NUI.m in Sources */,
+				7CBC0ED1B6B18396E3CCE96563306D4A /* UITextView+NUI.m in Sources */,
+				A200C3E91EB430D80465910E580F6434 /* UIToolbar+NUI.m in Sources */,
+				727324F87A07CD0492F771338E09A562 /* UIView+NUI.m in Sources */,
+				277D547592EC4799A67B255C81CF6F92 /* UIWindow+NUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C835250E633E7C44DCEC420B697626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A69D92939F361EFFA52F9BE5BDB6590 /* NSArray+NUIFunctional.m in Sources */,
+				207FC7DCAC88A72AE7BB5FEFB67D788E /* NSSet+NUIFunctional.m in Sources */,
+				3A1B1F5E2A99E99459D0353390B058E1 /* NUIParse-dummy.m in Sources */,
+				A670E6E0B814CEF0AA87A02553E559C8 /* NUIPEOFToken.m in Sources */,
+				E31BC5CC844B036BB101A3B0D6FD99FC /* NUIPErrorToken.m in Sources */,
+				57C096920F583898CE9361389342A125 /* NUIPGrammar.m in Sources */,
+				ACF6893C0C43B0EA2E16AA04B36B2F27 /* NUIPGrammarInternal.m in Sources */,
+				B6047859E49E6AA9A3CBC759AD8962A0 /* NUIPGrammarPrivate.m in Sources */,
+				E9596283E02514A86963D5E5630EE0EE /* NUIPGrammarSymbol.m in Sources */,
+				F443226BC43DC654A74DE486F848EC55 /* NUIPIdentifierRecogniser.m in Sources */,
+				0DDB6DDD4C12252FDC3F4896AB04100A /* NUIPIdentifierToken.m in Sources */,
+				4BA59BB21F07BF1A1DD1870F4C1C4A03 /* NUIPItem.m in Sources */,
+				C3B8EC3F4EBB50B53465632E360C10F0 /* NUIPJSONParser.m in Sources */,
+				8B90459531B30B59865D870EBAB15220 /* NUIPKeywordRecogniser.m in Sources */,
+				D99AE5919DCC7F0A36BEA4172EC95DFC /* NUIPKeywordToken.m in Sources */,
+				BC3846519A6ACF17A2100CA26156DEAC /* NUIPLALR1Parser.m in Sources */,
+				45D0BB9DED93B9CF33B28F28671366A9 /* NUIPLR1Item.m in Sources */,
+				DFD65C17399CF1CCAB52F9CD2822A1BA /* NUIPLR1Parser.m in Sources */,
+				8A8A04DC76AF35C1C07F5B2AEC378BA7 /* NUIPNumberRecogniser.m in Sources */,
+				CAD81F3A21E675140BD2EE8F8A4413CA /* NUIPNumberToken.m in Sources */,
+				F702AF6099787F561A82219B9B3106E3 /* NUIPParser.m in Sources */,
+				B1660134006312557B22858B73571196 /* NUIPQuotedRecogniser.m in Sources */,
+				8D2D5F1EC15E23EF68DDAA8058C5C0E5 /* NUIPQuotedToken.m in Sources */,
+				3939284096E77C31B0AAED4C50A6AC62 /* NUIPRecoveryAction.m in Sources */,
+				C0F8B7FDC32588611CC9848094BD7CE4 /* NUIPRegexpRecogniser.m in Sources */,
+				B49DAC95E9A168DFC7E3BE02D5D7AA7C /* NUIPRHSItem.m in Sources */,
+				ACA5F5AFF7AD5DF8AF04AB1B7E06751A /* NUIPRHSItemResult.m in Sources */,
+				2D2B52A4381A01643858A4D36BDE85ED /* NUIPRule.m in Sources */,
+				F2B10D2D178F7321A65E186536A8992F /* NUIPShiftAction.m in Sources */,
+				EE3B3701A01E2FD7C1716CB7A2984B17 /* NUIPShiftReduceAction.m in Sources */,
+				479A27638ACB722C25BB6AA699521899 /* NUIPShiftReduceActionTable.m in Sources */,
+				A8A58D10A65D1A11F449E29934B89469 /* NUIPShiftReduceGotoTable.m in Sources */,
+				05B58982F0CC3C8413FA9E3F8AD81174 /* NUIPShiftReduceParser.m in Sources */,
+				1EA449A1E9CC5CFB9A9FC81C32840ECE /* NUIPShiftReduceState.m in Sources */,
+				8842CC055AA036253F10F8ED54DE13D9 /* NUIPSLRParser.m in Sources */,
+				6CD6D7CD61A9F851AE5D1809AC816C3B /* NUIPSyntaxTree.m in Sources */,
+				E0603FD6234A9C743933F94BB405F6C5 /* NUIPToken.m in Sources */,
+				DD6283313DBF25461FAF3E60DD5E3086 /* NUIPTokeniser.m in Sources */,
+				ACF41E2FEF3F5E33F7BE6ABE12370DB6 /* NUIPTokenStream.m in Sources */,
+				E5C84204F3156C03361DC836988B9F76 /* NUIPWhiteSpaceRecogniser.m in Sources */,
+				95BDBF234DF0FAB6BE49E568110BD8D8 /* NUIPWhiteSpaceToken.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D081AF4BCC4C3C93CE5896F03DBB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EEB75BA6E574D33BD0F053B74D2545 /* Pods-NUITestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C4EE6D1691DF207B1D9746DB3925D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NUIParse;
+			target = DC5FC82AAA0C0BF556A4ACB312841E1F /* NUIParse */;
+			targetProxy = 8B216C33394710502EAC0B600DC4AB53 /* PBXContainerItemProxy */;
+		};
+		5A018CBFA7B90A6CDCCCA08927C3E361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NUIParse;
+			target = DC5FC82AAA0C0BF556A4ACB312841E1F /* NUIParse */;
+			targetProxy = ABDACB90E0C7C58AB2932BF5A0CB9803 /* PBXContainerItemProxy */;
+		};
+		D5EF0A3770C2459C7FEF9CFF6F956357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NUI;
+			target = 25CC8DF9F654DD673EDE4FE4F565DA86 /* NUI */;
+			targetProxy = E00B0CC19EB0DC83E58350B566F4256E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		388943D117179F7FC669CEE6D02F9365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15FCB78D0029CBE399A48DAF86A96D5 /* Pods-NUITestApp.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3A582F79F4C7B39F04ACC03726D5F101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC3480714E633488575588C4AD6489A /* NUI.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NUI/NUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3B9D17D887AC67CBBA7AC99FC4891494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC3480714E633488575588C4AD6489A /* NUI.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NUI/NUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60FE12444E1B6CACB56AB5827844D2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A91D267C8A9FC3D763F76297ADDECE7 /* NUIParse.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NUIParse/NUIParse-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C52F3F43465CE4D7E959491774B0F92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A91D267C8A9FC3D763F76297ADDECE7 /* NUIParse.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NUIParse/NUIParse-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E60768EC7C1782D70678410CA4AF5631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2842BFAA250CBE5E128B0E1147C0D5 /* Pods-NUITestApp.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92B7F734DFDD23E85C2A166C3CFED19 /* Build configuration list for PBXNativeTarget "NUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9D17D887AC67CBBA7AC99FC4891494 /* Debug */,
+				3A582F79F4C7B39F04ACC03726D5F101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6B6D5C0BFB233A22791AD29984DAD5 /* Build configuration list for PBXNativeTarget "NUIParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FE12444E1B6CACB56AB5827844D2EB /* Debug */,
+				C52F3F43465CE4D7E959491774B0F92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F818537586351B8D53133BA2BD6D8ADF /* Build configuration list for PBXNativeTarget "Pods-NUITestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60768EC7C1782D70678410CA4AF5631 /* Debug */,
+				388943D117179F7FC669CEE6D02F9365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

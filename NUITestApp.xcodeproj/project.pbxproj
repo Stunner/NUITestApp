@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4D096DFEF7A7D4E8D6C5A2 /* libPods-NUITestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95E63E9F43C1EDD52185208 /* libPods-NUITestApp.a */; };
 		93225CFF1C349EA8003ADD2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93225CFE1C349EA8003ADD2B /* main.m */; };
 		93225D021C349EA8003ADD2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93225D011C349EA8003ADD2B /* AppDelegate.m */; };
 		93225D051C349EA8003ADD2B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93225D041C349EA8003ADD2B /* FirstViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49131CA581A3398B5273E24A /* Pods-NUITestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NUITestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NUITestApp/Pods-NUITestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		93225CFA1C349EA8003ADD2B /* NUITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NUITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93225CFE1C349EA8003ADD2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93225D001C349EA8003ADD2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +31,8 @@
 		93225D0C1C349EA8003ADD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93225D0F1C349EA8003ADD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93225D111C349EA8003ADD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95E63E9F43C1EDD52185208 /* libPods-NUITestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NUITestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBECEA991A77ED42440E871B /* Pods-NUITestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NUITestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NUITestApp/Pods-NUITestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4D096DFEF7A7D4E8D6C5A2 /* libPods-NUITestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		488F3F298406337B1C41F870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B95E63E9F43C1EDD52185208 /* libPods-NUITestApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93225CF11C349EA8003ADD2B = {
 			isa = PBXGroup;
 			children = (
 				93225CFC1C349EA8003ADD2B /* NUITestApp */,
 				93225CFB1C349EA8003ADD2B /* Products */,
+				A3682CF02E65C1110DC16517 /* Pods */,
+				488F3F298406337B1C41F870 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +99,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A3682CF02E65C1110DC16517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49131CA581A3398B5273E24A /* Pods-NUITestApp.debug.xcconfig */,
+				BBECEA991A77ED42440E871B /* Pods-NUITestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93225D141C349EA8003ADD2B /* Build configuration list for PBXNativeTarget "NUITestApp" */;
 			buildPhases = (
+				352C8DF93E7D3167067C8276 /* Check Pods Manifest.lock */,
 				93225CF61C349EA8003ADD2B /* Sources */,
 				93225CF71C349EA8003ADD2B /* Frameworks */,
 				93225CF81C349EA8003ADD2B /* Resources */,
+				5F3D9284C6A037C3B76A37AF /* Embed Pods Frameworks */,
+				39D3FFB8BC6CD78C1DDA5045 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +175,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		352C8DF93E7D3167067C8276 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39D3FFB8BC6CD78C1DDA5045 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NUITestApp/Pods-NUITestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3D9284C6A037C3B76A37AF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NUITestApp/Pods-NUITestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93225CF61C349EA8003ADD2B /* Sources */ = {
@@ -265,6 +340,7 @@
 		};
 		93225D151C349EA8003ADD2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49131CA581A3398B5273E24A /* Pods-NUITestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NUITestApp/Info.plist;
@@ -276,6 +352,7 @@
 		};
 		93225D161C349EA8003ADD2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBECEA991A77ED42440E871B /* Pods-NUITestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NUITestApp/Info.plist;
@@ -304,6 +381,7 @@
 				93225D161C349EA8003ADD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
