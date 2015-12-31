@@ -7,12 +7,19 @@
 //
 
 #import "SecondViewController.h"
+#import <NUI/UITabBarItem+NUI.h>
 
 @interface SecondViewController ()
 
 @end
 
 @implementation SecondViewController
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    self.tabBarItem.nuiClass = @"SecondTabBar";
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

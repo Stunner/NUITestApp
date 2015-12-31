@@ -15,6 +15,7 @@
 		93225D0B1C349EA8003ADD2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93225D091C349EA8003ADD2B /* Main.storyboard */; };
 		93225D0D1C349EA8003ADD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93225D0C1C349EA8003ADD2B /* Assets.xcassets */; };
 		93225D101C349EA8003ADD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93225D0E1C349EA8003ADD2B /* LaunchScreen.storyboard */; };
+		93225D181C34AB67003ADD2B /* CartmanBrah.nss in Resources */ = {isa = PBXBuildFile; fileRef = 93225D171C34AB67003ADD2B /* CartmanBrah.nss */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		93225D0C1C349EA8003ADD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93225D0F1C349EA8003ADD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93225D111C349EA8003ADD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93225D171C34AB67003ADD2B /* CartmanBrah.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CartmanBrah.nss; sourceTree = "<group>"; };
 		B95E63E9F43C1EDD52185208 /* libPods-NUITestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NUITestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBECEA991A77ED42440E871B /* Pods-NUITestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NUITestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NUITestApp/Pods-NUITestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				93225D0E1C349EA8003ADD2B /* LaunchScreen.storyboard */,
 				93225D111C349EA8003ADD2B /* Info.plist */,
 				93225CFD1C349EA8003ADD2B /* Supporting Files */,
+				93225D171C34AB67003ADD2B /* CartmanBrah.nss */,
 			);
 			path = NUITestApp;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93225D101C349EA8003ADD2B /* LaunchScreen.storyboard in Resources */,
+				93225D181C34AB67003ADD2B /* CartmanBrah.nss in Resources */,
 				93225D0D1C349EA8003ADD2B /* Assets.xcassets in Resources */,
 				93225D0B1C349EA8003ADD2B /* Main.storyboard in Resources */,
 			);
